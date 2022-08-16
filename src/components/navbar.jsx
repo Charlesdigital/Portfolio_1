@@ -7,11 +7,11 @@ function Navbar() {
 
 <nav>
     <ol>
-        <li class="crumb">Home</li>
-        <li class="crumb">About</li>
-        <li class="crumb">Tech Stack</li>
-        <li class="crumb">Projects</li>
-        <li class="crumb">Contact Info</li>
+        <li class="menu">Home</li>
+        <li class="menu">About</li>
+        <li class="menu">Tech Stack</li>
+        <li class="menu">Projects</li>
+        <li class="menu">Contact Info</li>
     </ol>
 </nav>
   )
