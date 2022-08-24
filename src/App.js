@@ -2,9 +2,12 @@ import { useState} from "react";
 import axios from 'axios';
 import './App.css';
 import Navbar from "./components/navbar.jsx";
+import Emails from "./components/emails.jsx";
+import Projects from "./components/projects.jsx";
+
+
 // import network from "./components/network.jsx";
 
-import Emails from "./components/emails.jsx";
 
 
 
@@ -34,13 +37,19 @@ function App() {
   return (
     <div className="App">
     <Navbar/>
+    {/* <About/> */}
+    {/* <Techstack/>
+    <Projects/>
+    <Contact Me/> */}
+    <Projects/>
+    <Emails/>
     <button onClick = {decAmount}>
       {counter}
     </button>
-    <Emails
+    {/* <Emails
     name = {state.name}
     email = {state.email}
-    />
+    /> */}
     </div>
   );
 }
@@ -65,11 +74,3 @@ export default App;
 // export default network
 
 
-{/* <Emails props = {state}/>
-    <div>
-      {state.map( x => (
-        <div>
-        {x}
-    </div>
-
-      )} */}
