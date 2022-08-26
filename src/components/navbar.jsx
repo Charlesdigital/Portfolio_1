@@ -10,7 +10,7 @@ function Navbar() {
         <span class="menu">About</span>
         <span class="menu">Tech Stack</span>
         <span class="menu">Projects</span>
-        <span class="menu">Contact Info</span>
+        <span class="menu">Contact</span>
 </nav>
   )
 }

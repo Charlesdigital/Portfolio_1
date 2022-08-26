@@ -1,6 +1,6 @@
 import { useState} from "react";
 import axios from 'axios';
-import './App.css';
+import './App.scss';
 import Navbar from "./components/navbar.jsx";
 import Emails from "./components/emails.jsx";
 import Projects from "./components/projects.jsx";
