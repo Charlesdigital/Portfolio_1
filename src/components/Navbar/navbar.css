@@ -1,0 +1,15 @@
+
+.menu {
+    background-color: #fefbd8;
+    font-weight: bold;
+    margin: 100px;
+
+}
+
+.logo {
+    background: pink;
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 0;
+}
