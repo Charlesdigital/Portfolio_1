@@ -4,6 +4,7 @@ import './App.scss';
 import Navbar from "./components/Navbar/navbar.jsx";
 import Emails from "./components/emails.jsx";
 import Projects from "./components/projects.jsx";
+import Form from "./components/contactform.jsx";
 
 
 // import network from "./components/network.jsx";
@@ -23,12 +24,10 @@ function App() {
           setState(res.data)
           })
           console.log("test1", state)
-
-
   }
 
   function decAmount() {
-     setCounter( prevCounter => prevCounter - 1 )
+     setCounter( prevCounter => prevCounter + 1 )
      setCounter( prevCounter => prevCounter - 1 )
     network()
 
@@ -50,6 +49,7 @@ function App() {
     name = {state.name}
     email = {state.email}
     /> */}
+    <Form/>
     </div>
   );
 }
