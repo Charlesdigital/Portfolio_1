@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import "./navbar.css";
 // import LogoC from './assets/icons/c.svg'
 import test from '../../assets/icons/test.png'
@@ -30,7 +30,7 @@ export default Navbar
 
 // Nav
 //tech stack
-//prokects
+//projects
 //contact me
 
 
