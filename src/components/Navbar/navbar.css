@@ -13,3 +13,19 @@
     position: absolute;
     top: 0;
 }
+
+.list {
+    display: flex;
+    list-style-type: none;
+}
+
+nav {
+    background-color: #384460  ;
+    display: flex;
+    justify-content: space-between
+}
+
+.top-logo {
+width: 200px;
+height: 200px;
+}

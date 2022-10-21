@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom'
 import "./navbar.css";
+import { FaBars } from 'react-icons/fa'
 // import LogoC from './assets/icons/c.svg'
-import test from '../../assets/icons/test.png'
+import Logo from '../../assets/icons/celogo.png'
 
 function Navbar() {
-
+// const [nav, setNav] = useState(false)
+// const handleClick = () => setNav(!nav)
   return (
-
+<div>
 <nav>
         {/* <Link className='logo' to='/'>
           <img src = {LogoC} alt="logo" />
@@ -15,14 +17,26 @@ function Navbar() {
           <img src = {test} alt="logo" />
         </Link> */}
 
-        <img src = {test} alt="logo" />
-
-        <span class="menu">Home</span>
-        <span class="menu">About</span>
-        <span class="menu">Tech Stack</span>
-        <span class="menu">Projects</span>
-        <span class="menu">Contact</span>
+        <img class="top-logo" src = {Logo} alt="logo" />
+        <div>
+<ul class="list">
+        <li class="menu">Home</li>
+        <li class="menu">About</li>
+        <li class="menu">Tech Stack</li>
+        <li class="menu">Projects</li>
+        <li class="menu">Contact</li>
+        </ul>
+        </div>
 </nav>
+{/* hamburger */}
+<div>
+<FaBars/>
+</div>
+
+{/* Mobile view */}
+{/* <ul className = {!nav ? 'hidden' : }> */}
+
+</div>
   )
 }
 
