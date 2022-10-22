@@ -10,31 +10,31 @@ function Navbar() {
   return (
 <div>
 <nav>
-        {/* <Link className='logo' to='/'>
+        {/* <Link classNameName='logo' to='/'>
           <img src = {LogoC} alt="logo" />
         </Link> */}
-        {/* <Link className='logo' to='/'>
+        {/* <Link classNameName='logo' to='/'>
           <img src = {test} alt="logo" />
         </Link> */}
 
-        <img class="top-logo" src = {Logo} alt="logo" />
+        <img className="top-logo" src = {Logo} alt="logo" />
         <div>
-<ul class="list">
-        <li class="menu">Home</li>
-        <li class="menu">About</li>
-        <li class="menu">Tech Stack</li>
-        <li class="menu">Projects</li>
-        <li class="menu">Contact</li>
+<ul className="list">
+        <li className="menu">Home</li>
+        <li className="menu">About</li>
+        <li className="menu">Tech Stack</li>
+        <li className="menu">Projects</li>
+        <li className="menu">Contact</li>
         </ul>
         </div>
 </nav>
 {/* hamburger */}
-<div>
+<div className= "hidden">
 <FaBars/>
 </div>
 
 {/* Mobile view */}
-{/* <ul className = {!nav ? 'hidden' : }> */}
+{/* <ul classNameName = {!nav ? 'hidden' : }> */}
 
 </div>
   )

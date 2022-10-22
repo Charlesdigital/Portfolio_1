@@ -1,8 +1,8 @@
 
 .menu {
-    background-color: #fefbd8;
     font-weight: bold;
-    margin: 100px;
+    color: white;
+    margin: 50px;
 
 }
 
@@ -22,10 +22,19 @@
 nav {
     background-color: #384460  ;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    height: 150px;
 }
 
 .top-logo {
 width: 200px;
 height: 200px;
 }
+
+.hidden {
+    visibility: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+    .menu {background: blue;}
+  }
