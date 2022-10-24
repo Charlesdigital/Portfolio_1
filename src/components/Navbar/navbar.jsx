@@ -34,7 +34,13 @@ function Navbar() {
 </div>
 
 {/* Mobile view */}
-{/* <ul classNameName = {!nav ? 'hidden' : }> */}
+<ul className="hidden">
+        <li className="menu">Home</li>
+        <li className="menu">About</li>
+        <li className="menu">Tech Stack</li>
+        <li className="menu">Projects</li>
+        <li className="menu">Contact</li>
+        </ul>
 
 </div>
   )
