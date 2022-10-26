@@ -29,7 +29,7 @@ const handleClick = () => setNav(!nav)
         </ul>
         </div>
         <div onClick = {handleClick} className= "burger">
-          {!nav ? <FaBars/> : <FaTimes />}
+          {!nav ? <FaBars /> : <FaTimes />}
 </div>
         </div>
 
@@ -37,7 +37,7 @@ const handleClick = () => setNav(!nav)
 
 
 {/* Mobile view */}
-<ul onClick = {handleClick} className= {!nav ? "nopop" : "pop"}>
+<ul onClick = {handleClick} className= {!nav ? "hide-menu" : "show-menu"}>
         <li className="menu">Home</li>
         <li className="menu">About</li>
         <li className="menu">Tech Stack</li>

@@ -2,7 +2,6 @@
 .menu {
     font-weight: bold;
     color: white;
-    margin: 50px;
 
 }
 
@@ -37,13 +36,22 @@ height: 180px;
 .burger {
     visibility: hidden;
     z-index: 1;
+
 }
 
+
+
+/* .fa-solid {
+    background-color: purple;;
+    margin: 100px;
+    height:100 px;
+} */
 @media only screen and (max-width: 1032px) {
     .menu {background: blue;}
     .burger {visibility: visible; }
     .list {visibility: hidden;}
-    .nopop {visibility: hidden;}
-    .pop {visibility: visible;}
+    .hide-menu {visibility: hidden;}
+    .show-menu {visibility: visible; height: 100vh; width: 100vh; background-color: blue;}
+    .burger {margin-right: 100px;font-size: 5vh; object-fit: contain;}
 
   }
