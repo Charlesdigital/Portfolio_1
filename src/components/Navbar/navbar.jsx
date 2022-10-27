@@ -1,5 +1,4 @@
 import {useState} from 'react';
-import { Link } from 'react-router-dom'
 import "./navbar.css";
 import { FaBars, FaTimes, FaToggleOff } from 'react-icons/fa'
 // import LogoC from './assets/icons/c.svg'
@@ -10,12 +9,7 @@ const [nav, setNav] = useState(false)
 const handleClick = () => setNav(!nav)
   return (
 <div>
-        {/* <Link classNameName='logo' to='/'>
-          <img src = {LogoC} alt="logo" />
-        </Link> */}
-        {/* <Link classNameName='logo' to='/'>
-          <img src = {test} alt="logo" />
-        </Link> */}
+
         <div className= "nav">
 
         <img className="top-logo" src = {Logo} alt="logo" />
