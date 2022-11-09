@@ -1,0 +1,8 @@
+.about-info {
+    /* display: flex; */
+    justify-content: center;
+    border: 3px solid green;
+    margin: 50px;
+    text-align: center;
+
+}

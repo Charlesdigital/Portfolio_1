@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar/navbar.jsx";
 import Emails from "./components/emails.jsx";
 import Projects from "./components/projects.jsx";
 import Form from "./components/contactform.jsx";
-import About from "./components/About.jsx";
+import About from "./components/About/About.jsx";
 import Skills from "./components/Skills.jsx";
 
 // import network from "./components/network.jsx";
