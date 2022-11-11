@@ -4,7 +4,7 @@ import './App.scss';
 import Navbar from "./components/Navbar/navbar.jsx";
 import Emails from "./components/emails.jsx";
 import Projects from "./components/projects.jsx";
-import Form from "./components/contactform.jsx";
+import Form from "./components/Contactform/contactform.jsx";
 import About from "./components/About/About.jsx";
 import Skills from "./components/Skills.jsx";
 
