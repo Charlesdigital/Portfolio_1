@@ -12,7 +12,7 @@ function contactform() {
 
 <div className="input-info">
 
-<div>
+<div className="formContainer">
 <label for="fname">First name:</label>
 <input type="text" id="fname" name="fname" placeholder="First Name" ></input>
 </div>
@@ -26,7 +26,7 @@ function contactform() {
 <input type="text" id="lname" name="lname" value="Doe"></input>
 </div>
 <div>
-<textarea placeholder="message"> </textarea>
+<textarea placeholder="message" cols="30" rows="6"> </textarea>
 <input type="submit" value="Submit"></input>
 </div>
 
@@ -34,6 +34,7 @@ function contactform() {
 
 </form>
     </div>
+
   )
 }
 
