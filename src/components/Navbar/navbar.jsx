@@ -19,7 +19,7 @@ const handleClick = () => setNav(!nav)
         <li className="menu">About</li>
         <li className="menu">Tech Stack</li>
         <li className="menu">Projects</li>
-        <li className="menu">Contact</li>
+        <a href="Contactform/contactform.jsx" className="menu">Contact</a>
         </ul>
         </div>
         <div onClick = {handleClick} className= "burger">

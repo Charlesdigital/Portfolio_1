@@ -1,7 +1,10 @@
+import "./projects.css";
+
+
 function Projects() {
 
     return (
-<div>
+<div className="projects">
     <div> Yo Low Trips</div>
     <div> WikiMaps </div>
     <div> Interview Scheduler </div>

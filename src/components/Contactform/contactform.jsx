@@ -6,7 +6,7 @@ function contactform() {
     <div>
 <form className="box">
 <div className= "header-info">
-<h1 c>Contact Me </h1>
+<h1>Contact Me </h1>
 <p> Please leave a note and I will get back to you within 48 hours. Thanks.</p>
 </div>
 
@@ -26,7 +26,7 @@ function contactform() {
 <input type="text" id="lname" name="lname" value="Doe"></input>
 </div>
 <div>
-<textarea placeholder="message" cols="30" rows="6"> </textarea>
+<textarea placeholder="message" cols="30" rows="6"> </textarea>  
 <input type="submit" value="Submit"></input>
 </div>
 

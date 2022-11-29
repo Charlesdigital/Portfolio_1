@@ -3,10 +3,10 @@ import axios from 'axios';
 import './App.scss';
 import Navbar from "./components/Navbar/navbar.jsx";
 import Emails from "./components/emails.jsx";
-import Projects from "./components/projects.jsx";
+import Projects from "./components/Projects/projects.jsx";
 import Form from "./components/Contactform/contactform.jsx";
 import About from "./components/About/About.jsx";
-import Skills from "./components/Skills.jsx";
+import Skills from "./components/Skills/Skills.jsx";
 
 // import network from "./components/network.jsx";
 
