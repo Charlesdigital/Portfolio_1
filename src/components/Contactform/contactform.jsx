@@ -26,7 +26,7 @@ function contactform() {
 <input type="text" id="lname" name="lname" value="Doe"></input>
 </div>
 <div>
-<textarea placeholder="message" cols="30" rows="6"> </textarea>  
+<textarea placeholder="message" cols="30" rows="6"> </textarea>
 <input type="submit" value="Submit"></input>
 </div>
 
