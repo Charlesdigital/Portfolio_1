@@ -2,9 +2,8 @@ import { useState} from "react";
 import axios from 'axios';
 import './App.scss';
 import Navbar from "./components/Navbar/navbar.jsx";
-import Emails from "./components/emails.jsx";
 import Projects from "./components/Projects/projects.jsx";
-import Form from "./components/Contactform/contactform.jsx";
+import Contactform from "./components/Contactform/contactform.jsx";
 import About from "./components/About/About.jsx";
 import Skills from "./components/Skills/Skills.jsx";
 
@@ -38,20 +37,9 @@ function App() {
     <div className="App">
     <Navbar/>
     <About/>
-    {/* <Techstack/>
-    <Projects/>
-    <Contact Me/> */}
     <Projects/>
     <Skills/>
-    <Emails/>
-    <button onClick = {decAmount}>
-      {counter}
-    </button>
-    {/* <Emails
-    name = {state.name}
-    email = {state.email}
-    /> */}
-    <Form/>
+    <Contactform/>
     </div>
   );
 }
