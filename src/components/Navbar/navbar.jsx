@@ -57,11 +57,35 @@ const handleClick = () => setNav(!nav)
 
 {/* Mobile view */}
 <ul onClick = {handleClick} className= {!nav ? "hide-menu" : "show-menu"}>
-        <li className="menu">Home</li>
-        <li className="menu">About</li>
-        <li className="menu">Tech Stack</li>
-        <li className="menu">Projects</li>
-        <li className="menu">Contact</li>
+<li className="menu">
+        <Link  to="box" smooth={true} duration={500}>
+                Home
+        </Link>
+        </li>
+
+        <li className="menu">
+        <Link  to="about-info" smooth={true} duration={500}>
+                About
+        </Link>
+        </li>
+
+        <li className="menu">
+        <Link  to="Skills" smooth={true} duration={500}>
+        Skills
+        </Link>
+        </li>
+
+        <li className="menu">
+        <Link  to="projects" smooth={true} duration={500}>
+        Projects
+        </Link>
+        </li>
+
+        <li className="menu">
+        <Link  to="box" smooth={true} duration={500}>
+        Contacts
+        </Link>
+        </li>
         </ul>
 </div>
   )
