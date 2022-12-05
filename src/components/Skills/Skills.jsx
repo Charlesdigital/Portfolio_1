@@ -11,17 +11,45 @@ import notion from '../../assets/icons/notion.svg'
 function Skills() {
   return (
     <div className="Skills">
-      <h1> Skills</h1>
-    <p>Experience</p>
-    <img className="top-logo" src = {html} alt="logo" />
-    <img className="top-logo" src = {css} alt="logo" />
-    <img className="top-logo" src = {javascript} alt="logo" />
-    <img className="top-logo" src = {react} alt="logo" />
-    <img className="top-logo" src = {postgres} alt="logo" />
-    <img className="top-logo" src = {notion} alt="logo" />
+      <h1 className="skill-title"> Skills</h1>
+    <p>Technologies I've worked with:</p>
+    <div className="container">
+    <div>
+    <img className="skill-icons" src = {html} alt="logo" />
+    <p>HTML</p>
+    </div>
+
+    <div>
+    <img className="skill-icons" src = {css} alt="logo" />
+    <p>CSS</p>
+    </div>
+    <div>
+    <img className="skill-icons" src = {javascript} alt="logo" />
+
+      <p>JAVASCRIPT</p>
+    </div>
+
+    <div>
+    <img className="skill-icons" src = {react} alt="logo" />
+
+      <p>REACT</p>
+    </div>
+
+    <div>
+    <img className="skill-icons" src = {postgres} alt="logo" />
+
+      <p>POSTGRES</p>
+    </div>
+
+    <div>
+    <img className="skill-icons" src = {notion} alt="logo" />
+
+      <p>NOTION</p>
+    </div>
+
+    </div>
 
 
-    <p>Technologies I've worked with</p>
     </div>
   )
 }
