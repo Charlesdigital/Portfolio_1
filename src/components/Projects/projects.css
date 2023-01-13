@@ -1,3 +1,7 @@
 .projects {
     height: 100vh;
 }
+
+.projectContainer {
+    background-color:palegreen;
+}
