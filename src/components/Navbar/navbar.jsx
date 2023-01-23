@@ -46,6 +46,7 @@ const handleClick = () => setNav(!nav)
         </li>
 
         </ul>
+
         </div>
         <div onClick = {handleClick} className= "burger">
           {!nav ? <FaBars /> : <FaTimes />}

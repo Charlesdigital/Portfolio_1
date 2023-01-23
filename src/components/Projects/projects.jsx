@@ -19,7 +19,6 @@ function Projects() {
    </ul>
    <a href="https://github.com/Charlesdigital/Yo-Low-Trips" target="_blank">Repo</a>
    <ul>
-    <li></li>
    </ul>
     </div>
 
@@ -37,7 +36,6 @@ function Projects() {
    </ul>
    <a href="https://github.com/araff-16/Wiki-Maps/tree/master">Repo</a>
    <ul>
-    <li></li>
    </ul>
     </div>
     <div className="projectContainer">
@@ -54,10 +52,9 @@ function Projects() {
    </ul>
    <a href="https://github.com/Charlesdigital/scheduler" target="_blank">Repo</a>
    <ul>
-    <li></li>
    </ul>
     </div>
-   
+
 
 
 </section>
