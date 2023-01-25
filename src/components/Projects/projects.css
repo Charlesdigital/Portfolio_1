@@ -1,7 +1,19 @@
-
+.links {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 .projectContainer {
     background-color:palegreen;
     align-items: center;
 
+}
+
+.technologies {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text {
+text-align: center;
 }
