@@ -5,15 +5,15 @@ import { FaBars, FaTimes, FaToggleOff } from 'react-icons/fa'
 import Logo from '../../assets/icons/celogo.png'
 import {Link} from 'react-scroll';
 function Navbar() {
+
 const [nav, setNav] = useState(false)
 const handleClick = () => setNav(!nav)
+
   return (
 <div>
 
         <div className= "nav">
-
         <img className="top-logo" src = {Logo} alt="logo" />
-        <div>
 <ul className="list">
         <li className="menu">
         <Link  to="box" smooth={true} duration={500}>
@@ -43,21 +43,19 @@ const handleClick = () => setNav(!nav)
         <Link  to="box" smooth={true} duration={500}>
         Contacts
         </Link>
+
         </li>
-
-        </ul>
-
-        </div>
         <div onClick = {handleClick} className= "burger">
-          {!nav ? <FaBars /> : <FaTimes />}
+          {!nav ? <FaBars size={50} /> : <FaTimes size={50}/>}
 </div>
+        </ul>
         </div>
 
 {/* hamburger */}
 
 
 {/* Mobile view */}
-<ul onClick = {handleClick} className= {!nav ? "hide-menu" : "show-menu"}>
+<ul className="BarIcon" onClick = {handleClick} className= {!nav ? "hide-menu" : "show-menu"}>
 <li className="menu">
         <Link  to="box" smooth={true} duration={500}>
                 Home
@@ -87,6 +85,7 @@ const handleClick = () => setNav(!nav)
         Contacts
         </Link>
         </li>
+
         </ul>
 </div>
   )
