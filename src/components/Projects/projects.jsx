@@ -1,5 +1,8 @@
 import "./projects.css";
 import YLT from '../../assets/Yo-Low-trips-demo.gif'
+import WikiMaps from '../../assets/Wikimaps.gif'
+import Scheduler from '../../assets/Scheduler.gif'
+
 
 function Projects() {
   return (
@@ -31,6 +34,7 @@ function Projects() {
         <h1 className="text">Wiki Maps</h1>
         <p className="text"> A full stack application to help find food places </p>
         <ul className="technologies">
+        <img className="gif" src = {WikiMaps} alt="logo" />
           <li>HTML5</li>
           <li>Javascript</li>
           <li>CSS</li>
@@ -48,6 +52,8 @@ function Projects() {
         <h1 className="text">Scheduler</h1>
         <p className="text"> An application to help with scheduling</p>
         <ul className="technologies">
+        <img className="gif" src = {Scheduler} alt="logo" />
+
           <li>HTML5</li>
           <li>Javascript</li>
           <li>React</li>
