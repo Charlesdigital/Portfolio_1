@@ -8,11 +8,11 @@ function Navbar() {
 
 const [nav, setNav] = useState(false)
 const handleClick = () => setNav(!nav)
+const [counter, setCounter] = useState(1)
 
   return (
-<div>
-
-        <div className= "nav">
+<div className="nav">
+        <div className= "navbar">
         <img className="top-logo" src = {Logo} alt="logo" />
 <ul className="list">
         <li className="menu">
@@ -56,6 +56,7 @@ const handleClick = () => setNav(!nav)
 
 {/* Mobile view */}
 <ul className="BarIcon" onClick = {handleClick} className= {!nav ? "hide-menu" : "show-menu"}>
+<h1 onClick={() => setCounter(counter + 1)}>{counter}</h1>
 <li className="menu">
         <Link  to="box" smooth={true} duration={500}>
                 Home

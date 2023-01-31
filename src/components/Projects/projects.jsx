@@ -1,4 +1,5 @@
 import "./projects.css";
+import YLT from '../../assets/Yo-Low-trips-demo.gif'
 
 function Projects() {
   return (
@@ -7,6 +8,7 @@ function Projects() {
         <h1 className="text">Yo Low Trips</h1>
         <p className="text"> A full stack application to find flight deals</p>
         <ul className="technologies">
+        <img className="gif" src = {YLT} alt="logo" />
           <li>HTML5</li>
           <li>Javascript</li>
           <li>React</li>
