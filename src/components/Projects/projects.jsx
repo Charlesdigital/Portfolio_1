@@ -18,7 +18,7 @@ function Projects() {
           <li>Flight Data API</li>
         </ul>
         <ul className="links">
-          <a href="https://hotartistapp.netlify.app/" target="_blank">
+          <a href="https://hotartistapp.netlify.app/" target="_blank" rel="noopener noreferrer">
             Live
           </a>
           <a
@@ -38,10 +38,10 @@ function Projects() {
           <li>HTML5</li>
           <li>Javascript</li>
           <li>CSS</li>
-          <li>Flight Data API</li>
+          <li>Google Map API</li>
         </ul>
         <ul className="links">
-          <a href="https://hotartistapp.netlify.app/" target="_blank">
+          <a href="https://hotartistapp.netlify.app/" target="_blank" rel="noopener noreferrer">
             Live
           </a>
           <a href="https://github.com/araff-16/Wiki-Maps/tree/master">Repo</a>
@@ -57,13 +57,12 @@ function Projects() {
           <li>HTML5</li>
           <li>Javascript</li>
           <li>React</li>
-          <li>Flight Data API</li>
         </ul>
         <ul className="links">
         <a href="https://hotartistapp.netlify.app/" target="_blank">
           Live
         </a>
-        <a href="https://github.com/Charlesdigital/scheduler" target="_blank">
+        <a href="https://github.com/Charlesdigital/scheduler" target="_blank" rel="noopener noreferrer">
           Repo
         </a>
         </ul>
