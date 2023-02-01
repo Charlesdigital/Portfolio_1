@@ -1,4 +1,5 @@
 import "./Contactform.css";
+import { FaReact } from "react-icons/fa";
 
 
 function contactform() {
@@ -31,6 +32,9 @@ function contactform() {
 </div>
 
 </form>
+<div className="React">
+  Built with React <FaReact size ={20} color= "#61DBFB"/>
+</div>
     </div>
 
   )
