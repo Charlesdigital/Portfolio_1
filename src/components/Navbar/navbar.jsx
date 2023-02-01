@@ -10,7 +10,6 @@ function Navbar() {
 
 const [nav, setNav] = useState(false)
 const handleClick = () => setNav(!nav)
-const [counter, setCounter] = useState(1)
 
   return (
 <div className="nav">
@@ -62,7 +61,6 @@ const [counter, setCounter] = useState(1)
 
 {/* Mobile view */}
 <ul className="BarIcon" onClick = {handleClick} className= {!nav ? "hide-menu" : "show-menu"}>
-{/* <h1 onClick={() => setCounter(counter + 1)}>{counter}</h1> */}
 <li className="menu">
         <Link  to="box" smooth={true} duration={500}>
                 Home
@@ -100,10 +98,6 @@ const [counter, setCounter] = useState(1)
 
 export default Navbar
 
-// Nav
-//tech stack
-//prokects
-//contact me
 
 
 

@@ -8,7 +8,7 @@ function contactform() {
 <form className="box">
 <div className= "header-info">
 <h2>Contact Me </h2>
-<p> Please leave a note and I will get back to you within 48 hours. Thanks.</p>
+<p> Please leave a note and I will get back to you within 48 hours.</p>
 
 </div>
 <div className="input-info">

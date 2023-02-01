@@ -72,8 +72,8 @@ height: 10px;
   }
 
   a:hover {
-    background-color: yellow;
-
+    background-color: palegreen;
+    border-radius: 10px;
   }
   /* .barIcon {
     margin-right: 100px;
