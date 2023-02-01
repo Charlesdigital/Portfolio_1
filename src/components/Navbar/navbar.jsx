@@ -2,7 +2,6 @@ import {useState} from 'react';
 import "./navbar.css";
 import { FaBars, FaTimes, FaToggleOff,  } from 'react-icons/fa'
 // import { BsLinkedin, BsGithub} from "react-icons/bs";
-
 // import LogoC from './assets/icons/c.svg'
 import Logo from '../../assets/icons/celogo.png'
 import {Link} from 'react-scroll';
@@ -87,7 +86,7 @@ const handleClick = () => setNav(!nav)
 
         <li className="menu2">
         <Link  to="box" smooth={true} duration={500}>
-        Contacts
+        Contact
         </Link>
         </li>
 

@@ -8,8 +8,11 @@
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding:10%;
     border: 3px solid #F14E32;
+    margin: 20px;
+    height: 60vh;
+    padding-top: 350px;
+
 
 }
 
