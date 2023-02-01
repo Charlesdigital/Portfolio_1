@@ -6,7 +6,7 @@
 
   body {
     margin: 0;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: "Inter", sans-serif;
     min-height: 100vh;
     display: grid;
     place-content: center;
@@ -21,7 +21,7 @@
   h1 {
     font-size: clamp(1rem, 3vw + 1rem, 4rem);
     position: relative;
-    font-family: "Source Code Pro", monospace;
+    font-family: "Inter", monospace;
     position: relative;
   }
 

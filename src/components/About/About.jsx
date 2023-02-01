@@ -1,5 +1,5 @@
 // import { MdOutlineElectricBike, GiWorld, GiElectric } from 'react-icons/fa'
-import { GiElectric } from "react-icons/gi";
+import { MdOutlineSportsTennis } from "react-icons/md"
 import { MdOutlineElectricBike } from "react-icons/md";
 import { GiWorld } from "react-icons/gi"
 import "./about.css";
@@ -12,7 +12,7 @@ function About() {
     and breaking down business problems into code. </p>
     <p>During my spare time I enjoy cycling and exploring the city. <MdOutlineElectricBike /></p>
     <p>I enjoy travelling around the world and experiencing new cultures. <GiWorld /></p>
-    <p>I also enjoy all things electric! <GiElectric color= "yellow" /></p>
+    <p>Some sports I enjoy playing are: Squash, Volleyball, Badminton, Table Tennis <MdOutlineSportsTennis /></p>
     </div>
 
 

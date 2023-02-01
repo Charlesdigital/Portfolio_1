@@ -1,5 +1,6 @@
 import "./Contactform.css";
 import { FaReact } from "react-icons/fa";
+import { BsLinkedin, BsGithub} from "react-icons/bs";
 
 
 function contactform() {
@@ -32,7 +33,12 @@ function contactform() {
 </div>
 
 </form>
-<div className="React">
+
+<div className="bottom">
+  <div className="socials">
+<a href="https://www.linkedin.com/in/charles-easton1/" className="social" target="_blank" rel="noopener noreferrer" ><BsLinkedin size={50} color="#0072b1" /></a>
+<a href="https://github.com/Charlesdigital" className="social" target="_blank" rel="noopener noreferrer"><BsGithub size={50} color="white" /></a>
+</div>
   Built with React <FaReact size ={20} color= "#61DBFB"/>
 </div>
     </div>

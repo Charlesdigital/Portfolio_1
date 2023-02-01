@@ -34,11 +34,6 @@ display: flex;
 
 }
 
-/* .top-logo {
-width: 100px;
-height: 10px;
-} */
-
 .burger {
     visibility: hidden;
     z-index: 1;
@@ -55,12 +50,6 @@ height: 10px;
 }
 
 
-
-/* .fa-solid {
-    background-color: purple;;
-    margin: 100px;
-    height:100 px;
-} */
 @media only screen and (max-width: 1032px) {
     .menu {background: blue; margin: 0px; display: flex;justify-content: center; margin: auto;}
     .burger {visibility: visible; }

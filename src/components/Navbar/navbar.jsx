@@ -51,8 +51,8 @@ const handleClick = () => setNav(!nav)
 </div>
         </ul>
 <div className="socials">
-<a href="https://www.linkedin.com/in/charles-easton1/" target="_blank" rel="noopener noreferrer" ><BsLinkedin size={50} color="#0072b1" /></a>
-<a href="https://github.com/Charlesdigital" target="_blank" rel="noopener noreferrer"><BsGithub size={50} color="white" /></a>
+{/* <a href="https://www.linkedin.com/in/charles-easton1/" target="_blank" rel="noopener noreferrer" ><BsLinkedin size={50} color="#0072b1" /></a>
+<a href="https://github.com/Charlesdigital" target="_blank" rel="noopener noreferrer"><BsGithub size={50} color="white" /></a> */}
 </div>
         </div>
 
