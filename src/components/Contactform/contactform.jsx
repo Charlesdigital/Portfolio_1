@@ -3,7 +3,7 @@ import "./Contactform.css";
 
 function contactform() {
   return (
-    <div>
+    <div className="contactContainer">
 <form className="box">
 <div className= "header-info">
 <h2>Contact Me </h2>

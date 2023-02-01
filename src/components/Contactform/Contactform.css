@@ -1,7 +1,8 @@
 
 .box {
-    border: 3px solid green;
     height: 100vh;
+    align-items: center;
+    padding-top:300px;
 
 }
 
@@ -45,4 +46,10 @@ ul.show-menu {
     background: palegreen;
     font-weight: bold;
     padding: 20px;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
