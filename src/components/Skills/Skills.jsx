@@ -11,7 +11,7 @@ import notion from '../../assets/icons/notion.svg'
 function Skills() {
   return (
     <div className="Skills">
-      <h1 className="skill-title"> Skills</h1>
+      <h2 className="skill-title"> Skills</h2>
     <p>Technologies I've worked with:</p>
     <div className="container">
     <div>

@@ -45,6 +45,15 @@ height: 10px;
 
 }
 
+.socials {
+    display: flex;
+    margin:50px;
+    padding: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+
 
 
 /* .fa-solid {

@@ -6,6 +6,7 @@ import Projects from "./components/Projects/projects.jsx";
 import Contactform from "./components/Contactform/contactform.jsx";
 import About from "./components/About/About.jsx";
 import Skills from "./components/Skills/Skills.jsx";
+import Home from "./components/Home/home.jsx";
 
 // import network from "./components/network.jsx";
 
@@ -15,7 +16,7 @@ import Skills from "./components/Skills/Skills.jsx";
 function App() {
 
   const [ state, setState ] = useState(["chicken", "fried", "freezer"])
-  const [ counter, setCounter] = useState(5)
+  // const [ counter, setCounter] = useState(5)
 
   function network() {
     axios.get(`https://gorest.co.in/public/v2/users`).then((res) => {
@@ -26,16 +27,17 @@ function App() {
           console.log("test1", state)
   }
 
-  function decAmount() {
-     setCounter( prevCounter => prevCounter + 1 )
-     setCounter( prevCounter => prevCounter - 1 )
-    network()
+  // function decAmount() {
+  //    setCounter( prevCounter => prevCounter + 1 )
+  //    setCounter( prevCounter => prevCounter - 1 )
+  //   network()
 
-  }
+  // }
 
   return (
     <div className="App">
     <Navbar/>
+    <Home />
     <About/>
     <Projects/>
     <Skills/>

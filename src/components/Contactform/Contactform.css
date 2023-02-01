@@ -35,3 +35,8 @@ textarea {
     padding-left: 0.7rem;
     font-size: 100%;
 }
+
+ul.show-menu {
+    display: none;
+
+}

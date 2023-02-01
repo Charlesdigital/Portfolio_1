@@ -6,7 +6,7 @@ function contactform() {
     <div>
 <form className="box">
 <div className= "header-info">
-<h1>Contact Me </h1>
+<h2>Contact Me </h2>
 <p> Please leave a note and I will get back to you within 48 hours. Thanks.</p>
 
 </div>

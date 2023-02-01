@@ -8,7 +8,7 @@ function Projects() {
   return (
     <section className="projects">
       <div className="projectContainer">
-        <h1 className="text">Yo Low Trips</h1>
+        <h2 className="text">Yo Low Trips</h2>
         <p className="text"> A full stack application to find flight deals</p>
         <ul className="technologies">
         <img className="gif" src = {YLT} alt="logo" />
@@ -31,7 +31,7 @@ function Projects() {
       </div>
 
       <div className="projectContainer">
-        <h1 className="text">Wiki Maps</h1>
+        <h2 className="text">Wiki Maps</h2>
         <p className="text"> A full stack application to help find food places </p>
         <ul className="technologies">
         <img className="gif" src = {WikiMaps} alt="logo" />
@@ -49,7 +49,7 @@ function Projects() {
       </div>
 
       <div className="projectContainer">
-        <h1 className="text">Scheduler</h1>
+        <h2 className="text">Scheduler</h2>
         <p className="text"> An application to help with scheduling</p>
         <ul className="technologies">
         <img className="gif" src = {Scheduler} alt="logo" />
