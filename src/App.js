@@ -1,5 +1,3 @@
-// import { useState} from "react";
-// import axios from 'axios';
 import './App.scss';
 import Navbar from "./components/Navbar/navbar.jsx";
 import Projects from "./components/Projects/projects.jsx";
@@ -10,16 +8,6 @@ import Home from "./components/Home/home.jsx";
 
 
 function App() {
-
-  // function network() {
-  //   axios.get(`https://gorest.co.in/public/v2/users`).then((res) => {
-  //         // setState(res.data)
-  //         console.log(res.data)
-  //         setState(res.data)
-  //         })
-  //         console.log("test1", state)
-  // }
-
 
   return (
     <div className="App">

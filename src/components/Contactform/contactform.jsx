@@ -1,7 +1,6 @@
 import "./Contactform.css";
 import { FaReact } from "react-icons/fa";
 import { BsLinkedin, BsGithub} from "react-icons/bs";
-// import contact from '../../assets/contact.svg'
 
 
 function contactform() {

@@ -7,7 +7,6 @@ import postgres from '../../assets/icons/postgres.svg'
 import notion from '../../assets/icons/notion.svg'
 
 
-
 function Skills() {
   return (
     <div className="Skills">

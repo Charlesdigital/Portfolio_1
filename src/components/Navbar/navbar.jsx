@@ -1,8 +1,6 @@
 import {useState} from 'react';
 import "./navbar.css";
-import { FaBars, FaTimes, FaToggleOff,  } from 'react-icons/fa'
-// import { BsLinkedin, BsGithub} from "react-icons/bs";
-// import LogoC from './assets/icons/c.svg'
+import { FaBars, FaTimes } from 'react-icons/fa'
 import Logo from '../../assets/icons/celogo.png'
 import {Link} from 'react-scroll';
 function Navbar() {
