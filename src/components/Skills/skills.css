@@ -1,8 +1,5 @@
 
 
-.skill-title {
-    font-size: 70px;
-}
 
 .container {
     display:flex;
@@ -18,7 +15,6 @@
 
 .Skills {
     text-align: center;
-    /* object-fit: cover; */
 }
 
 .skill-icons {

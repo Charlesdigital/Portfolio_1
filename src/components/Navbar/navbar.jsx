@@ -41,7 +41,7 @@ const handleClick = () => setNav(!nav)
 
         <li className="menu">
         <Link  to="box" smooth={true} duration={500}>
-        Contacts
+        Contact
         </Link>
 
         </li>
