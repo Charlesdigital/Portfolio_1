@@ -9,7 +9,7 @@ function Projects() {
     <section className="projects">
       <h2 className="skill-title"> Projects </h2>
       <div className="projectContainer">
-        <h2 className="text">Yo Low Trips</h2>
+        <h2 className="text">Yo-Low Trips</h2>
         <p className="text"> A full stack application to find flight deals</p>
         <img className="gif" src = {YLT} alt="logo" />
 

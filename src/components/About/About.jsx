@@ -1,4 +1,3 @@
-// import { MdOutlineElectricBike, GiWorld, GiElectric } from 'react-icons/fa'
 import { MdOutlineSportsTennis } from "react-icons/md"
 import { MdOutlineElectricBike } from "react-icons/md";
 import { GiWorld } from "react-icons/gi"
@@ -18,8 +17,8 @@ function About() {
     online resources. Experience working with large ERP solutions such as PeopleSoft and SAP in an accounting function. I enjoy learning the fundamentals of programming
     and breaking down business problems into code. </p>
     <p>During my spare time I enjoy cycling and exploring the city. <MdOutlineElectricBike /></p>
-    <p>I enjoy travelling around the world and experiencing new cultures. <GiWorld /></p>
-    <p>Some sports I enjoy playing are: Squash, Volleyball, Badminton, Table Tennis <MdOutlineSportsTennis /></p>
+    <p>I enjoy travelling and experiencing new places. <GiWorld /></p>
+    <p>Sports I play are: Squash, Volleyball, Badminton, Table Tennis <MdOutlineSportsTennis /></p>
     </div>
     </div>
     </div>
