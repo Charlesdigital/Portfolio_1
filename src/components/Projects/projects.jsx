@@ -7,6 +7,7 @@ import Scheduler from '../../assets/Scheduler.gif'
 function Projects() {
   return (
     <section className="projects">
+      <h2 className="skill-title"> Projects </h2>
       <div className="projectContainer">
         <h2 className="text">Yo Low Trips</h2>
         <p className="text"> A full stack application to find flight deals</p>

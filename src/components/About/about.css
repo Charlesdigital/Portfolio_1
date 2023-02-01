@@ -1,8 +1,35 @@
 .about-info {
-    /* display: flex; */
-    justify-content: center;
-    border: 3px solid green;
-    margin: 50px;
-    text-align: center;
+    border: 2px solid #4b4646;
+    margin: 30px;
     height: 100vh;
+    padding: 200px;
+
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.summary {
+    justify-content: center;
+    align-items: center;
+}
+
+.content-inside {
+    text-align: center;
+    margin-left: 34px;
+}
+
+.Charles {
+    border: 5px solid #4b4646;
+    border-radius: 10%;
+    height:18em;
+}
+
+.text-content {
+    font-size: x-large;
 }

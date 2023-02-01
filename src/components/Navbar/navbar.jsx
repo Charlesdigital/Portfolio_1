@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import "./navbar.css";
 import { FaBars, FaTimes, FaToggleOff,  } from 'react-icons/fa'
-import { BsLinkedin, BsGithub} from "react-icons/bs";
+// import { BsLinkedin, BsGithub} from "react-icons/bs";
 
 // import LogoC from './assets/icons/c.svg'
 import Logo from '../../assets/icons/celogo.png'
@@ -61,31 +61,31 @@ const handleClick = () => setNav(!nav)
 
 {/* Mobile view */}
 <ul className="BarIcon" onClick = {handleClick} className= {!nav ? "hide-menu" : "show-menu"}>
-<li className="menu">
+<li className="menu2">
         <Link  to="box" smooth={true} duration={500}>
                 Home
         </Link>
         </li>
 
-        <li className="menu">
+        <li className="menu2">
         <Link  to="about-info" smooth={true} duration={500}>
                 About
         </Link>
         </li>
 
-        <li className="menu">
+        <li className="menu2">
         <Link  to="Skills" smooth={true} duration={500}>
         Skills
         </Link>
         </li>
 
-        <li className="menu">
+        <li className="menu2">
         <Link  to="projects" smooth={true} duration={500}>
         Projects
         </Link>
         </li>
 
-        <li className="menu">
+        <li className="menu2">
         <Link  to="box" smooth={true} duration={500}>
         Contacts
         </Link>
