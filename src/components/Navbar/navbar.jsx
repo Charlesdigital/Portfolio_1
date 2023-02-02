@@ -1,7 +1,8 @@
 import {useState} from 'react';
 import "./navbar.css";
 import { FaBars, FaTimes } from 'react-icons/fa'
-import Logo from '../../assets/icons/celogo.png'
+import CE from '../../assets/icons/CE.png'
+
 import {Link} from 'react-scroll';
 function Navbar() {
 
@@ -11,7 +12,7 @@ const handleClick = () => setNav(!nav)
   return (
 <div className="nav">
         <div className= "navbar">
-        <img className="top-logo" src = {Logo} alt="logo" />
+        <img className="top-logo" src = {CE} alt="logo" />
 <ul className="list">
         <li className="menu">
         <Link  to="homeContainer" smooth={true} duration={500}>

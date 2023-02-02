@@ -16,12 +16,12 @@ function contactform() {
 <div className="formContainer">
 
 <label for="fname"></label>
-<input className="infield" type="text" id="fname" name="fname" placeholder="Name" size="40" ></input>
+<input className="infield" type="text" id="fname" name="fname" placeholder="Name" size="40" required></input>
 </div>
 
 <div className="email">
 <label for="fname"></label>
-<input className="infield" type="text" id="lname" name="lname" placeholder="Email" size="40"></input>
+<input className="infield" type="text" id="lname" name="lname" placeholder="Email" size="40" required></input>
 </div>
 
 <div className="messageContainer">

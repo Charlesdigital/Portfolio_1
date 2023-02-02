@@ -46,6 +46,10 @@ ul.show-menu {
     padding: 20px;
 }
 
+.submit:hover {
+    transform: scale(1.1);
+}
+
 .contactContainer {
 
     justify-content: center;
