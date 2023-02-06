@@ -6,7 +6,8 @@ import {Link} from 'react-scroll';
 
 function home() {
   return (
-    <div className="homeContainer">
+    <header >
+      <div className="homeContainer">
 <h1 classname="header">Hello, my name is Charles Easton, A Full Stack Developer.</h1>
 <p class="subtitle">Welcome to my website! <SlEmotsmile /></p>
 
@@ -17,7 +18,8 @@ function home() {
         </Link>
         </button>
         </div>
-</div>
+        </div>
+</header>
   )
 }
 

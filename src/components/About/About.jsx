@@ -6,7 +6,8 @@ import me from '../../assets/me.png'
 
 function About() {
   return (
-    <div className="about-info">
+    <section className="about-info">
+      <header>
             <h2 className="skill-title"> About Me </h2>
 
       <div className="content-inside">
@@ -21,7 +22,8 @@ function About() {
     </div>
     </div>
     </div>
-    </div>
+    </header>
+    </section>
 
 
   )

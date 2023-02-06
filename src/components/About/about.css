@@ -13,10 +13,10 @@
 
 } */
 
-.summary {
+/* .summary {
     justify-content: center;
     align-items: center;
-}
+} */
 
 .content-inside {
     text-align: center;
@@ -37,3 +37,7 @@
 .text-me {
     overflow: ;
 }
+/* 
+header {
+    height: 100vh;
+  } */

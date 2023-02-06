@@ -25,10 +25,15 @@
     position: relative;
   }
 
-.homeContainer {
-  height: 100vh;
-  padding: 200px;
-}
+header {
+    height: 90vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
 
   h1::before,
   h1::after {
