@@ -1,17 +1,17 @@
 .about-info {
     border: 2px solid #F14E32;
-    margin: 20px;
-    height: 100vh;
+    /* margin: 20px; */
+    height: 110vh;
 
 }
 
 
-.content {
+/* .content {
     display: flex;
     justify-content: center;
     align-items: center;
 
-}
+} */
 
 .summary {
     justify-content: center;
@@ -31,4 +31,9 @@
 
 .text-content {
     font-size:x-large;
+
+}
+
+.text-me {
+    overflow: ;
 }

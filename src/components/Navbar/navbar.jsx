@@ -10,10 +10,14 @@ const [nav, setNav] = useState(false)
 const handleClick = () => setNav(!nav)
 
   return (
-<div className="nav">
-        <div className= "navbar">
-        <img className="top-logo" src = {CE} alt="logo" />
+<nav className="nav">
+        {/* <div className= "navbar"> */}
+
 <ul className="list">
+<span>
+        <img className="top-logo" src = {CE} alt="logo" />
+
+        </span>
         <li className="menu">
         <Link  to="homeContainer" smooth={true} duration={500}>
                 Home
@@ -48,17 +52,17 @@ const handleClick = () => setNav(!nav)
           {!nav ? <FaBars size={50} /> : <FaTimes size={50}/>}
 </div>
         </ul>
-<div className="socials">
-{/* <a href="https://www.linkedin.com/in/charles-easton1/" target="_blank" rel="noopener noreferrer" ><BsLinkedin size={50} color="#0072b1" /></a>
-<a href="https://github.com/Charlesdigital" target="_blank" rel="noopener noreferrer"><BsGithub size={50} color="white" /></a> */}
-</div>
-        </div>
+{/* <div className="socials">
+<a href="https://www.linkedin.com/in/charles-easton1/" target="_blank" rel="noopener noreferrer" ><BsLinkedin size={50} color="#0072b1" /></a>
+<a href="https://github.com/Charlesdigital" target="_blank" rel="noopener noreferrer"><BsGithub size={50} color="white" /></a>
+</div> */}
+        {/* </div> */}
 
 {/* hamburger */}
 
 
 {/* Mobile view */}
-<ul className="BarIcon" onClick = {handleClick} className= {!nav ? "hide-menu" : "show-menu"}>
+<ul className="list" onClick = {handleClick} className= {!nav ? "hide-menu" : "show-menu"}>
 <li className="menu2">
         <Link  to="box" smooth={true} duration={500}>
                 Home
@@ -90,7 +94,7 @@ const handleClick = () => setNav(!nav)
         </li>
 
         </ul>
-</div>
+</nav>
   )
 }
 
