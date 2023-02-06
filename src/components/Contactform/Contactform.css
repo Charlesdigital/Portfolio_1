@@ -66,11 +66,6 @@ ul.show-menu {
     justify-content: center;
 }
 
-/* .messageContainer {
-    display: flex;
-    justify-content: end;
-    flex-wrap: wrap;}
-
-.mail {
-padding-left: 215px;
-} */
+.note {
+    padding: 15px;
+}
