@@ -1,22 +1,8 @@
 .about-info {
-    border: 2px solid #F14E32;
-    /* margin: 20px; */
-    height: 110vh;
+    /* border: 2px solid #F14E32; */
+    height: 100vh;
 
 }
-
-
-/* .content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-} */
-
-/* .summary {
-    justify-content: center;
-    align-items: center;
-} */
 
 .content-inside {
     text-align: center;
@@ -34,10 +20,9 @@
 
 }
 
-.text-me {
-    overflow: ;
-}
-/* 
-header {
-    height: 100vh;
-  } */
+
+
+  @media only screen and (max-width: 880px) {
+    .text-content {font-size: large;}
+
+  }

@@ -7,9 +7,8 @@ import me from '../../assets/me.png'
 function About() {
   return (
     <section className="about-info">
+                  <h2 className="skill-title"> About Me </h2>
       <header>
-            <h2 className="skill-title"> About Me </h2>
-
       <div className="content-inside">
         <img className="Charles" src = {me} alt="Charles" />
         <div className="summary">
