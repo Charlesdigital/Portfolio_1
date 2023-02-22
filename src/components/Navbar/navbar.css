@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #222;
+    background-color: #384460 ;
     position: fixed;
     top: 0;
     left: 0;
@@ -56,6 +56,10 @@
     transition: transform 0.2s ease-in-out;
   }
 
+  .hide-menu {
+    visibility: hidden;
+  }
+
   /* media query for screens smaller than 800px */
   @media only screen and (max-width: 800px) {
     .container {
@@ -81,6 +85,7 @@
 
     .show-menu {
       display: flex;
+      visibility:visible;
     }
 
     .menu2 {
@@ -102,3 +107,4 @@
     }
 
   }
+

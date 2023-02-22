@@ -88,7 +88,7 @@ function Projects() {
           <li className="tech">CSS</li>
           <li className="tech">Postgres</li>
           <a
-            href="https://rapidapi.com/ai-box-ai-box-default/api/flight-data4/"
+            href="https://mapsplatform.google.com/solutions/display-the-ideal-location/"
             className="tech"
             target="_blank"
             rel="noopener noreferrer"
