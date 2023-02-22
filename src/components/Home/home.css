@@ -16,13 +16,15 @@
 
   h2 {
     color: #F14E32;
+    padding: 1rem;
   }
 
   h1 {
-    font-size: clamp(1rem, 3vw + 1rem, 4rem);
+    font-size: clamp(1rem, 2.5vw + 1rem, 4rem);
     position: relative;
     font-family: "Inter", monospace;
     position: relative;
+    padding: 1rem;
   }
 
 header {
@@ -31,8 +33,6 @@ header {
     align-items: center;
     justify-content: center;
   }
-
-
 
 
   h1::before,
@@ -66,6 +66,7 @@ header {
     opacity: 0;
     transform: translateY(3rem);
     animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
+    padding: 1rem;
   }
 
   @keyframes typewriter {
@@ -107,7 +108,7 @@ header {
   }
 
 
-  button, button::after {
+  .button-1, .button-1::after {
     width: 380px;
     height: 86px;
     font-size: 36px;
@@ -120,9 +121,13 @@ header {
     box-shadow: 6px 0px 0px #00E6F6;
     outline: transparent;
     position: relative;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
   }
 
-  button::after {
+  .button-1::after {
     --slice-0: inset(50% 50% 50% 50%);
     --slice-1: inset(80% -6px 0 0);
     --slice-2: inset(50% -6px 30% 0);
@@ -142,7 +147,7 @@ header {
     clip-path: var(--slice-0);
   }
 
-  button:hover::after {
+  .button-1:hover::after {
     animation: 1s glitch;
     animation-timing-function: steps(2, end);
   }

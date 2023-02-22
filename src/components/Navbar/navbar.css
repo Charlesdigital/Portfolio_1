@@ -1,59 +1,104 @@
-* {
-    margin: 0px;
-    padding: 0px;
-}
-.menu {
-    font-weight: bold;
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .top-logo {
+    height: 50px;
+  }
+
+  .list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu {
+    margin: 0 1rem;
+  }
+
+  .menu a {
     color: white;
-    margin: 50px
-
-}
-
-/* .menu2 {
-    visibility: hidden;
-
-} */
-
-.top-logo {
-    width: 150px;
-}
-
-.list {
-    display: flex;
-    justify-content:space-evenly;
-    list-style-type: none;
-    align-items:center;
-    display: flex;
-    height: 150px;
-
-}
-
-nav {
-    background-color: #384460  ;
-
-}
-
-.burger {
-    /* visibility: hidden; */
-    z-index: 1;
-    justify-content: end;
-
-}
-
-@media only screen and (max-width: 1080px) {
-    .menu {background: blue; margin: 0px; display: flex;justify-content: center; margin: auto;}
-    .burger {visibility: visible; }
-    .list {visibility: hidden;}
-    .hide-menu {visibility: hidden;}
-    /* .show-menu {visibility: visible; height: 90vh; background-color: blue; justify-content: center;} */
-    /* .burger {font-size: 7vh; object-fit: contain; margin: 10px; margin-right: 1000px} */
-
+    text-decoration: none;
+    font-size: 1.2rem;
   }
 
-  a:hover {
-    background-color: palegreen;
-    border-radius: 10px;
+  .hamburger {
+    display: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
   }
-  /* .barIcon {
-    margin-right: 100px;
-  } */
+
+  .hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: white;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  /* media query for screens smaller than 800px */
+  @media only screen and (max-width: 800px) {
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .list {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      padding: 1rem;
+    }
+
+    .menu {
+      margin: 1rem 0;
+    }
+
+    .hamburger {
+      display: block;
+    }
+
+    .show-menu {
+      display: flex;
+    }
+
+    .menu2 {
+      margin: 1rem 0;
+      text-align: center;
+    }
+
+    .menu2 a {
+      display: block;
+      padding: 1rem;
+      border-bottom: 1px solid white;
+      font-size: 1.2rem;
+      color: white;
+      text-decoration: none;
+    }
+
+    .hide-menu {
+      display: none;
+    }
+
+  }

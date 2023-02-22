@@ -35,3 +35,7 @@ list-style: none;
     border: 1px solid ;
     background-color: white;
 }
+
+.text-project {
+    padding: 1rem;
+}

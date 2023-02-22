@@ -1,16 +1,13 @@
 .skillContainer {
     display:flex;
     justify-content: center;
-    border: 3px solid #F14E32;
+    /* border: 3px solid #F14E32; */
     margin: 20px;
     flex-wrap: wrap;
 
 
 }
 
-/* .Skills {
-    text-align: center;
-} */
 
 .skill-icons {
     margin:50px;
@@ -41,6 +38,5 @@
 
 
 @media only screen and (max-width: 771px) {
-    .skill-icons {width: 33.33333%; height: 70px;}
     .skillContainer { flex-direction:column;}
   }
