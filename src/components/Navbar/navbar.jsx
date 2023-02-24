@@ -9,12 +9,13 @@ function Navbar() {
   const handleClick = () => setNav(!nav);
 
   return (
+    <div className="container">
+
     <nav className="nav">
       {/* <div className= "navbar"> */}
-      <div className="container">
-      <div>
+      <a href = "https://velvety-marshmallow-639425.netlify.app/">
             <img className="top-logo" src={CE} alt="logo" />
-          </div>
+          </a>
         <ul className="list">
 
           <li className="menu">
@@ -41,20 +42,17 @@ function Navbar() {
             </Link>
           </li>
 
-          <li className="menu">
-            <Link to="box" smooth={true} duration={500}>
+          <li className="menu" >
+            <Link className="contact" to="box" smooth={true} duration={500}>
               Contact
             </Link>
           </li>
-
-
-
         </ul>
-        <button className="hamburger" >
+        {/* <button className="hamburger" >
           <span></span>
           <span></span>
           <span></span>
-          </button>
+          </button> */}
           <ul
           // className="mobile-list"
           // onClick={handleClick}
@@ -66,7 +64,7 @@ function Navbar() {
 
         {/* Mobile view */}
         <div onClick = {handleClick} className= "burger">
-          {!nav ? <FaBars size={50} /> : <FaTimes size={50}/>}
+          {!nav ? <FaBars size={50} /> :  <FaTimes  className="cross" size={50}/>}
 </div>
 
           <li className="menu2">
@@ -99,8 +97,9 @@ function Navbar() {
             </Link>
           </li>
         </ul>
+        </nav>
+
       </div>
-    </nav>
   );
 }
 

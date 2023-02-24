@@ -32,13 +32,34 @@
 
   .menu {
     margin: 0 1rem;
+    display: flex;
+    align-items: center;
   }
 
   .menu a {
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
-  }
+
+ }
+  .contact {
+    background-color: #F14E32;
+
+    border-radius: 9999px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .025em;
+    line-height: 24px;
+    line-height: 1;
+    overflow: hidden;
+    padding: 18px 1.5rem;
+    text-align: center;
+    transition-duration: .15s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);  }
+
 
   .hamburger {
     display: none;
