@@ -12,9 +12,12 @@ function Navbar() {
     <div className="container">
 
     <nav className="nav">
+    <div onClick = {handleClick} className= "burger">
+          {!nav ? <FaBars className= "icon" size={50} /> :  <FaTimes  className="icon cross" size={50}/>}
+</div>
       {/* <div className= "navbar"> */}
       <a href = "https://velvety-marshmallow-639425.netlify.app/">
-            <img className="top-logo" src={CE} alt="logo" />
+            {/* <img className="top-logo" src={CE} alt="logo" /> */}
           </a>
         <ul className="list">
 
@@ -29,6 +32,12 @@ function Navbar() {
               About
             </Link>
           </li>
+          
+          <li className="menu">
+            <Link to="projects" smooth={true} duration={500}>
+              Projects
+            </Link>
+          </li>
 
           <li className="menu">
             <Link to="Skills" smooth={true} duration={500}>
@@ -36,36 +45,20 @@ function Navbar() {
             </Link>
           </li>
 
-          <li className="menu">
-            <Link to="projects" smooth={true} duration={500}>
-              Projects
-            </Link>
-          </li>
+
 
           <li className="menu" >
             <Link className="contact" to="box" smooth={true} duration={500}>
               Contact
             </Link>
           </li>
+
         </ul>
-        {/* <button className="hamburger" >
-          <span></span>
-          <span></span>
-          <span></span>
-          </button> */}
-          <ul
-          // className="mobile-list"
-          // onClick={handleClick}
-          // className={!nav ? "hide-menu" : "show-menu"}
+
+          {/* <ul className ="nav-mobile"
         >
-        {/* </div> */}
 
-        {/* hamburger */}
 
-        {/* Mobile view */}
-        <div onClick = {handleClick} className= "burger">
-          {!nav ? <FaBars size={50} /> :  <FaTimes  className="cross" size={50}/>}
-</div>
 
           <li className="menu2">
             <Link to="box" smooth={true} duration={500}>
@@ -96,7 +89,7 @@ function Navbar() {
               Contact
             </Link>
           </li>
-        </ul>
+        </ul> */}
         </nav>
 
       </div>
@@ -104,7 +97,9 @@ function Navbar() {
 }
 
 export default Navbar;
-
+// className="mobile-list"
+          // onClick={handleClick}
+          // className={!nav ? "hide-menu" : "show-menu"}
 
   {/* <div className="socials">
 <a href="https://www.linkedin.com/in/charles-easton1/" target="_blank" rel="noopener noreferrer" ><BsLinkedin size={50} color="#0072b1" /></a>

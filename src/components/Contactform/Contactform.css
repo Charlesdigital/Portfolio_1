@@ -1,7 +1,6 @@
 
 .box {
     align-items: center;
-    padding-top:200px;
 }
 
 .input-info {
@@ -59,7 +58,7 @@ ul.show-menu {
 
 .bottom {
     font-weight: bold;
-    padding-top: 350px;
+    padding-top: 150px;
 }
 
 .socials {

@@ -1,14 +1,18 @@
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     padding: 1rem;
     background-color: #384460 ;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 999;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .burger {
+    visibility: hidden;
   }
 
   .container {
@@ -83,9 +87,21 @@
 
   /* media query for screens smaller than 800px */
   @media only screen and (max-width: 800px) {
+    .av {
+      display: none;
+      justify-content: none;
+    }
     .container {
       flex-direction: column;
       align-items: flex-start;
+    }
+    .burger {
+      visibility: visible;
+      text-align: end;
+    }
+
+    .icon {
+      padding: 30px;
     }
 
     .list {
@@ -93,7 +109,8 @@
       flex-direction: column;
       align-items: center;
       width: 100%;
-      padding: 1rem;
+      display: flex;
+      justify-content: center;
     }
 
     .menu {
@@ -125,6 +142,10 @@
 
     .hide-menu {
       display: none;
+    }
+
+    .nav-mobile {
+    justify-content: center;
     }
 
   }

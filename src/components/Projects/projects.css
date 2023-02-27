@@ -28,6 +28,7 @@ text-align: center;
 ul {
 list-style: none;
     font-weight: bold;
+    padding: 0;
 }
 
 .tech {
