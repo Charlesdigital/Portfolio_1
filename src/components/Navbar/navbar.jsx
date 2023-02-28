@@ -1,20 +1,27 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import "./navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import CE from "../../assets/icons/CE.png";
 
 import { Link } from "react-scroll";
 function Navbar() {
+	const navRef = useRef();
+
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
+	const showNavbar = () => {
+		navRef.current.classList.toggle(
+			"responsive_nav"
+		);
+    }
   return (
     <div className="container">
 
-    <nav className="nav">
-    <div onClick = {handleClick} className= "burger">
-          {!nav ? <FaBars className= "icon" size={50} /> :  <FaTimes  className="icon cross" size={50}/>}
-</div>
+    <nav className="nav" ref={navRef}>
+    <button onClick = {handleClick} className= "burger">
+          {!nav ? <FaBars className= "icon" size={50} onClick={showNavbar}/> :  <FaTimes  className="icon cross" size={50} onClick={showNavbar}/>}
+</button>
       {/* <div className= "navbar"> */}
       <a href = "https://velvety-marshmallow-639425.netlify.app/">
             {/* <img className="top-logo" src={CE} alt="logo" /> */}
@@ -22,7 +29,7 @@ function Navbar() {
         <ul className="list">
 
           <li className="menu">
-            <Link to="homeContainer" smooth={true} duration={500}>
+            <Link to="homeHeader" smooth={true} duration={500}>
               Home
             </Link>
           </li>
@@ -32,7 +39,7 @@ function Navbar() {
               About
             </Link>
           </li>
-          
+
           <li className="menu">
             <Link to="projects" smooth={true} duration={500}>
               Projects
