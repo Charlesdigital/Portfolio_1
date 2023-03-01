@@ -17,6 +17,7 @@ function Projects() {
 
         <ul className="technologies">
           <li className="tech">HTML5</li>
+          <li className="tech">CSS</li>
           <li className="tech">Javascript</li>
           <li className="tech">React</li>
 
