@@ -22,9 +22,6 @@ function Projects() {
 
         </ul>
         <ul className="links">
-          {/* <a href="https://hotartistapp.netlify.app/" target="_blank" rel="noopener noreferrer">
-            Live
-          </a> */}
           <a
             href="https://github.com/Charlesdigital/Mortgage-Calculator"
             target="_blank"
@@ -62,9 +59,6 @@ function Projects() {
           </a>
         </ul>
         <ul className="links">
-          {/* <a href="https://hotartistapp.netlify.app/" target="_blank" rel="noopener noreferrer">
-            Live
-          </a> */}
           <a
             href="https://github.com/Charlesdigital/Yo-Low-Trips"
             target="_blank"
@@ -97,10 +91,7 @@ function Projects() {
           </a>
         </ul>
         <ul className="links">
-          {/* <a href="https://hotartistapp.netlify.app/" target="_blank" rel="noopener noreferrer">
-            Live
-          </a> */}
-          <a href="https://github.com/araff-16/Wiki-Maps/tree/master">
+          <a href="https://github.com/Charlesdigital/Wiki-Maps">
             Source Code
           </a>
         </ul>
@@ -116,9 +107,6 @@ function Projects() {
           <li className="tech">React</li>
         </ul>
         <ul className="links">
-          {/* <a href="https://hotartistapp.netlify.app/" target="_blank">
-          Live
-        </a> */}
           <a
             href="https://github.com/Charlesdigital/scheduler"
             target="_blank"

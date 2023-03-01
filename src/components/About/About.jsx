@@ -9,7 +9,7 @@ function About() {
     <section className="about-info">
                   <h2 className="skill-title"> About Me </h2>
       <div className="content-inside">
-        <img className="Charles" src = {me} alt="Charles" />
+        <img className="charles" src = {me} alt="Charles" />
         <div className="summary">
     <div className="text-content">
     <p className="text-me" > I'm a Full-Stack Developer with a business background. My curiosity for continuous learning and tinkering with technology lead me to be a Developer. I have experience working with large ERP solutions such as PeopleSoft and SAP in an accounting function. I enjoy learning the fundamentals of programming

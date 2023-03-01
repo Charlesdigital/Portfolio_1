@@ -48,7 +48,7 @@ function contactform() {
             <textarea
               className="messageholder"
               placeholder="Message"
-              cols="45"
+              cols="42"
               rows="20"
             ></textarea>
             <div>

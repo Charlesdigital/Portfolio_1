@@ -1,27 +1,18 @@
-.about-info {
-    /* border: 2px solid #F14E32; */
+/* .about-info {
+    border: 2px solid #F14E32;
 
-}
-
-.content-inside {
-    text-align: center;
-    margin-left: 34px;
-}
-
-.Charles {
+} */
+.charles {
     border: 5px solid #4b4646;
     border-radius: 10%;
     height:18em;
 }
 
-
-.text-content {
+/* .text-content {
     font-size:large;
-}
-
-/* .text-me {
-    padding: 1rem;
 } */
+
+
 
 .summary {
     padding: 1rem;

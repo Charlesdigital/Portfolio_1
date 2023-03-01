@@ -1,74 +1,58 @@
-
-.box {
-    align-items: center;
-}
-
 .input-info {
-    background-color: #f2f2f2;
-    text-align: center;
+  background-color: #f2f2f2;
 }
 
 .header-info {
-    text-align: center;
-
+  text-align: center;
 }
 
 .content {
-    text-align: center;
-    border: 3px solid green;
-    margin-left: 34px;
+  border: 3px solid green;
+  margin-left: 34px;
 }
 
 .infield {
-    border: 2px solid #4b4646;
-    margin-bottom: 0.7rem;
-    padding-left: 0.7rem;
-    height: 2.5rem;
-    font-size: 100%;
+  border: 2px solid #4b4646;
+  margin-bottom: 0.7rem;
+  padding-left: 0.7rem;
+  height: 2.5rem;
+  font-size: 100%;
 }
 
 textarea {
-    border: 2px solid #4b4646;
-    margin-bottom: 0.7rem;
-    padding-left: 0.7rem;
-    font-size: 100%;
-}
-
-ul.show-menu {
-    display: none;
-
+  border: 2px solid #4b4646;
+  margin-bottom: 0.7rem;
+  font-size: 100%;
 }
 
 .submit {
-    background: palegreen;
-    font-weight: bold;
-    padding: 20px;
+  background: palegreen;
+  font-weight: bold;
+  padding: 20px;
 }
 
 .submit:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .contactContainer {
-
-    justify-content: center;
-    align-items:flex-end;
-    height: 100vh;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .bottom {
-    font-weight: bold;
-    padding-top: 150px;
+  font-weight: bold;
+  padding-top: 150px;
 }
 
 .socials {
-    justify-content: center;
+  justify-content: center;
 }
 
 .note {
-    padding: 15px;
+  padding: 15px;
 }
 
 .messageholder {
-    padding: 0.7rem;
+  padding: 0.7rem;
 }

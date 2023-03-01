@@ -1,8 +1,6 @@
 .nav {
-    /* align-items: center; */
     padding: 1rem;
     background-color: #384460 ;
-    /* position: fixed; */
     top: 0;
     left: 0;
     z-index: 1;
@@ -15,12 +13,8 @@
   }
 
   .container {
-    /* display: flex; */
     justify-content: space-between;
     align-items: center;
-    /* max-width: 1200px; */
-    /* width: 100vh; */
-
     margin: 0 auto;
   }
 
