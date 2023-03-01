@@ -1,43 +1,39 @@
 .skillContainer {
-    display:flex;
-    justify-content: center;
-    /* border: 3px solid #F14E32; */
-    margin: 20px;
-    flex-wrap: wrap;
-
-
+  display: flex;
+  justify-content: center;
+  /* border: 3px solid #F14E32; */
+  margin: 20px;
+  flex-wrap: wrap;
 }
 
-
 .skill-icons {
-    margin:50px;
-    transition: transform .2s; /* Animation */
-    width: 120px;
-    height: 120px;
-    display: flex;
+  margin: 50px;
+  transition: transform 0.2s; /* Animation */
+  width: 120px;
+  height: 120px;
+  display: flex;
 }
 
 .skill-icons:hover {
-    -ms-transform: scale(1.1); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5);
-  }
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
 
-  ul {
-    list-style-type: none;
+ul {
+  list-style-type: none;
+}
 
-  }
-
-  .skill-list {
-    display:flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex: 2;
-    padding: 0;
-
-  }
-
+.skill-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 2;
+  padding: 0;
+}
 
 @media only screen and (max-width: 771px) {
-    .skillContainer { flex-direction:column;}
+  .skillContainer {
+    flex-direction: column;
   }
+}

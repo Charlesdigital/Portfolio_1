@@ -3,16 +3,17 @@
 
 } */
 .charles {
-    border: 5px solid #4b4646;
-    border-radius: 10%;
-    height:18em;
+  border: 5px solid #4b4646;
+  border-radius: 10%;
+  height: 18em;
 }
 
 .summary {
-    padding: 1rem;
+  padding: 1rem;
 }
 
-  @media only screen and (max-width: 880px) {
-    .text-content {font-size: large;}
-
+@media only screen and (max-width: 880px) {
+  .text-content {
+    font-size: large;
   }
+}

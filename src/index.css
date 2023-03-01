@@ -1,28 +1,24 @@
-
 * {
-  font-size:large;
-
+  font-size: large;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Inter','Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: Inter, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: Inter, source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
 
 .skill-title {
   font-size: 70px;
 }
-
 
 p {
   font-weight: bold;

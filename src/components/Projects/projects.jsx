@@ -7,6 +7,7 @@ function Projects() {
   return (
     <div className="projects">
       <h2 className="skill-title"> Projects </h2>
+
       <div className="projectContainer">
         <h2 className="text">Mortgage Calculator</h2>
         <p className="text-project">
@@ -25,6 +26,36 @@ function Projects() {
         <ul className="links">
           <a
             href="https://github.com/Charlesdigital/Mortgage-Calculator"
+            target="_blank"
+          >
+            Source Code
+          </a>
+          <a
+            href="https://mortgagecalculatorbreakdown.netlify.app/"
+            target="_blank"
+          >
+            Live
+          </a>
+        </ul>
+      </div>
+      <div className="projectContainer">
+        <h2 className="text">Portfolio</h2>
+        <p className="text-project">
+          {" "}
+          This portfolio built with React
+        </p>
+        <img className="gif" src={Mortgagecalc} alt="logo" />
+
+        <ul className="technologies">
+          <li className="tech">HTML5</li>
+          <li className="tech">CSS</li>
+          <li className="tech">Javascript</li>
+          <li className="tech">React</li>
+
+        </ul>
+        <ul className="links">
+          <a
+            href="https://github.com/Charlesdigital/Portfolio_1"
             target="_blank"
           >
             Source Code

@@ -1,205 +1,210 @@
 :root {
-    --bg-color: hsl(49 37% 94%);
-    --typewriterSpeed: 3s;
-    --typewriterCharacters: 24;
-  }
+  --bg-color: hsl(49 37% 94%);
+  --typewriterSpeed: 3s;
+  --typewriterCharacters: 24;
+}
 
-  body {
-    margin: 0;
-    font-family: "Inter", sans-serif;
-    min-height: 100vh;
-    display: grid;
-    place-content: center;
-    text-align: center;
-    background: var(--bg-color);
-  }
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  background: var(--bg-color);
+}
 
-  h2 {
-    color: #F14E32;
-    padding: 1rem;
-  }
+h2 {
+  color: #f14e32;
+  padding: 1rem;
+  font-size: x-large;
+}
 
-  h1 {
-    font-size: clamp(1rem, 2.5vw + 1rem, 4rem);
-    position: relative;
-    font-family: "Inter", monospace;
-    position: relative;
-    padding: 1rem;
-  }
+h1 {
+  font-size: clamp(1rem, 2.5vw + 1rem, 4rem);
+  position: relative;
+  font-family: "Inter", monospace;
+  position: relative;
+  padding: 1rem;
+}
 
 header {
-    height: 90vh;
-    display:flex;
-    align-items: center;
-    justify-content: center;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #5c5c5c;
+}
+
+h1::before,
+h1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+h1::before {
+  background: var(--bg-color);
+  animation: typewriter var(--typewriterSpeed)
+    steps(var(--typewriterCharacters)) 1s forwards;
+}
+
+h1::after {
+  width: 0.125em;
+  background: #5c5c5c;
+  animation: typewriter var(--typewriterSpeed)
+      steps(var(--typewriterCharacters)) 1s forwards,
+    blink 750ms steps(var(--typewriterCharacters)) infinite;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  opacity: 0;
+  transform: translateY(3rem);
+  animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
+  padding: 1rem;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
   }
+}
 
-  h1 {
-    color: #5c5c5c;
+@keyframes blink {
+  to {
+    background: transparent;
   }
+}
 
-  h1::before,
-  h1::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
+}
 
-  h1::before {
-    background: var(--bg-color);
-    animation: typewriter var(--typewriterSpeed)
-      steps(var(--typewriterCharacters)) 1s forwards;
+#yt-link {
+  position: absolute;
+  bottom: 2em;
+  width: 100%;
+  color: hsl(0 0 0 / 0.7);
+
+  &:hover,
+  &:focus {
+    color: teal;
   }
+}
 
-  h1::after {
-    width: 0.125em;
-    background: #5c5c5c;
-    animation: typewriter var(--typewriterSpeed)
-        steps(var(--typewriterCharacters)) 1s forwards,
-      blink 750ms steps(var(--typewriterCharacters)) infinite;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.button-1,
+.button-1::after {
+  width: 380px;
+  height: 86px;
+  font-size: 36px;
+  font-family: "Inter", cursive;
+  background: linear-gradient(45deg, transparent 5%, #f14e32 5%);
+  border: 0;
+  color: #fff;
+  letter-spacing: 3px;
+  line-height: 88px;
+  box-shadow: 6px 0px 0px #00e6f6;
+  outline: transparent;
+  position: relative;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+}
+
+.button-1::after {
+  --slice-0: inset(50% 50% 50% 50%);
+  --slice-1: inset(80% -6px 0 0);
+  --slice-2: inset(50% -6px 30% 0);
+  --slice-3: inset(10% -6px 85% 0);
+  --slice-4: inset(40% -6px 43% 0);
+  --slice-5: inset(80% -6px 5% 0);
+
+  content: "CLICK HERE";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    45deg,
+    transparent 3%,
+    #00e6f6 3%,
+    #00e6f6 5%,
+    #f14e32 5%
+  );
+  text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #00e6f6;
+  clip-path: var(--slice-0);
+}
+
+.button-1:hover::after {
+  animation: 1s glitch;
+  animation-timing-function: steps(2, end);
+}
+
+@keyframes glitch {
+  0% {
+    clip-path: var(--slice-1);
+    transform: translate(-20px, -10px);
   }
-
-  .subtitle {
-    color: hsl(0 0% 0% / 0.7);
-    font-size: 1.5rem;
-    font-weight: bold;
-    opacity: 0;
-    transform: translateY(3rem);
-    animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
-    padding: 1rem;
+  10% {
+    clip-path: var(--slice-3);
+    transform: translate(10px, 10px);
   }
-
-  @keyframes typewriter {
-    to {
-      left: 100%;
-    }
+  20% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 10px);
   }
-
-  @keyframes blink {
-    to {
-      background: transparent;
-    }
+  30% {
+    clip-path: var(--slice-3);
+    transform: translate(0px, 5px);
   }
-
-  @keyframes fadeInUp {
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+  40% {
+    clip-path: var(--slice-2);
+    transform: translate(-5px, 0px);
   }
-
-  #yt-link {
-    position: absolute;
-    bottom: 2em;
-    width: 100%;
-    color: hsl(0 0 0 / 0.7);
-
-    &:hover,
-    &:focus {
-      color: teal;
-    }
+  50% {
+    clip-path: var(--slice-3);
+    transform: translate(5px, 0px);
   }
-
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  60% {
+    clip-path: var(--slice-4);
+    transform: translate(5px, 10px);
   }
-
-
-  .button-1, .button-1::after {
-    width: 380px;
-    height: 86px;
-    font-size: 36px;
-    font-family: "Inter", cursive;
-    background: linear-gradient(45deg, transparent 5%, #F14E32 5%);
-    border: 0;
-    color: #fff;
-    letter-spacing: 3px;
-    line-height: 88px;
-    box-shadow: 6px 0px 0px #00E6F6;
-    outline: transparent;
-    position: relative;
-    justify-content: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: bold;
+  70% {
+    clip-path: var(--slice-2);
+    transform: translate(-10px, 10px);
   }
-
-  .button-1::after {
-    --slice-0: inset(50% 50% 50% 50%);
-    --slice-1: inset(80% -6px 0 0);
-    --slice-2: inset(50% -6px 30% 0);
-    --slice-3: inset(10% -6px 85% 0);
-    --slice-4: inset(40% -6px 43% 0);
-    --slice-5: inset(80% -6px 5% 0);
-
-    content: 'CLICK HERE';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #F14E32 5%);
-    text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
-    clip-path: var(--slice-0);
+  80% {
+    clip-path: var(--slice-5);
+    transform: translate(20px, -10px);
   }
-
-  .button-1:hover::after {
-    animation: 1s glitch;
-    animation-timing-function: steps(2, end);
+  90% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 0px);
   }
-
-  @keyframes glitch {
-    0% {
-      clip-path: var(--slice-1);
-      transform: translate(-20px, -10px);
-    }
-    10% {
-      clip-path: var(--slice-3);
-      transform: translate(10px, 10px);
-    }
-    20% {
-      clip-path: var(--slice-1);
-      transform: translate(-10px, 10px);
-    }
-    30% {
-      clip-path: var(--slice-3);
-      transform: translate(0px, 5px);
-    }
-    40% {
-      clip-path: var(--slice-2);
-      transform: translate(-5px, 0px);
-    }
-    50% {
-      clip-path: var(--slice-3);
-      transform: translate(5px, 0px);
-    }
-    60% {
-      clip-path: var(--slice-4);
-      transform: translate(5px, 10px);
-    }
-    70% {
-      clip-path: var(--slice-2);
-      transform: translate(-10px, 10px);
-    }
-    80% {
-      clip-path: var(--slice-5);
-      transform: translate(20px, -10px);
-    }
-    90% {
-      clip-path: var(--slice-1);
-      transform: translate(-10px, 0px);
-    }
-    100% {
-      clip-path: var(--slice-1);
-      transform: translate(0);
-    }
+  100% {
+    clip-path: var(--slice-1);
+    transform: translate(0);
   }
+}
