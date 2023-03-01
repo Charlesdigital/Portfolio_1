@@ -7,6 +7,7 @@ import postgres from "../../assets/icons/postgres.svg";
 import notion from "../../assets/icons/notion.svg";
 import rest from "../../assets/icons/rest.svg";
 import figma from "../../assets/icons/figma.svg";
+import express from "../../assets/icons/express.svg";
 
 function Skills() {
   return (
@@ -29,7 +30,10 @@ function Skills() {
             <img className="skill-icons" src={javascript} alt="logo" />
             <span>JAVASCRIPT</span>
           </li>
-
+          <li>
+            <img className="skill-icons" src={express} alt="logo" />
+            <span>EXPRESS</span>
+          </li>
           <li>
             <img className="skill-icons" src={react} alt="logo" />
             <span>REACT</span>

@@ -3,6 +3,8 @@ import Mortgagecalc from "../../assets/mortgagecalc.gif";
 import YLT from "../../assets/Yo-Low-trips-demo.gif";
 import WikiMaps from "../../assets/Wikimaps.gif";
 import Scheduler from "../../assets/Scheduler.gif";
+import Portfolio from "../../assets/portfolio.gif";
+
 function Projects() {
   return (
     <div className="projects">
@@ -44,7 +46,7 @@ function Projects() {
           {" "}
           This portfolio built with React
         </p>
-        <img className="gif" src={Mortgagecalc} alt="logo" />
+        <img className="gif" src={Portfolio} alt="logo" />
 
         <ul className="technologies">
           <li className="tech">HTML5</li>
