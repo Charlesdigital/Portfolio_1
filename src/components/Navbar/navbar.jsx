@@ -19,9 +19,9 @@ function Navbar() {
     <div className="container">
 
     <nav className="nav" ref={navRef}>
-    <button onClick = {handleClick} className= "burger">
+    {/* <button onClick = {handleClick} className= "burger">
           {!nav ? <FaBars className= "icon" size={50} onClick={showNavbar}/> :  <FaTimes  className="icon cross" size={50} onClick={showNavbar}/>}
-</button>
+</button> */}
       {/* <div className= "navbar"> */}
       <a href = "https://velvety-marshmallow-639425.netlify.app/">
             {/* <img className="top-logo" src={CE} alt="logo" /> */}

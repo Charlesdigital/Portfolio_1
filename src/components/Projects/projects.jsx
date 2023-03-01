@@ -5,7 +5,7 @@ import WikiMaps from "../../assets/Wikimaps.gif";
 import Scheduler from "../../assets/Scheduler.gif";
 function Projects() {
   return (
-    <section className="projects">
+    <div className="projects">
       <h2 className="skill-title"> Projects </h2>
       <div className="projectContainer">
         <h2 className="text">Mortgage Calculator</h2>
@@ -128,7 +128,7 @@ function Projects() {
           </a>
         </ul>
       </div>
-    </section>
+    </div>
   );
 }
 export default Projects;

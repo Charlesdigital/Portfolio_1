@@ -1,3 +1,7 @@
+// * {
+//   overflow:hidden;
+// }
+
 $primary-color: #ffd700;
 
 @import 'animate.css';
@@ -33,7 +37,7 @@ textarea {
 
 .loader-hidden {
   display: none;
-} 
+}
 
 .loader-active {
   display: block;

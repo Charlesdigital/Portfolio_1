@@ -1,6 +1,5 @@
 .about-info {
     /* border: 2px solid #F14E32; */
-    height: 100vh;
 
 }
 
@@ -17,15 +16,15 @@
 
 
 .text-content {
-    font-size:x-large;
+    font-size:large;
 }
 
-.text-me {
+/* .text-me {
     padding: 1rem;
-}
+} */
 
 .summary {
-    padding: 2rem;
+    padding: 1rem;
 }
 
   @media only screen and (max-width: 880px) {
