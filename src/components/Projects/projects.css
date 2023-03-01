@@ -39,3 +39,10 @@ ul {
 .text-project {
   padding: 1rem;
 }
+
+.project-button {
+background-color: palegreen;
+padding: 10px 20px;
+font-weight: bold;
+
+}

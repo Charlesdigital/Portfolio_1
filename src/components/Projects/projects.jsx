@@ -30,13 +30,13 @@ function Projects() {
             href="https://github.com/Charlesdigital/Mortgage-Calculator"
             target="_blank"
           >
-            Source Code
+            <button className="project-button">Source Code</button>
           </a>
           <a
             href="https://mortgagecalculatorbreakdown.netlify.app/"
             target="_blank"
           >
-            Live
+            <button className="project-button">Live</button>
           </a>
         </ul>
       </div>
@@ -60,13 +60,13 @@ function Projects() {
             href="https://github.com/Charlesdigital/Portfolio_1"
             target="_blank"
           >
-            Source Code
+            <button className="project-button">Source Code</button>
           </a>
           <a
             href="https://mortgagecalculatorbreakdown.netlify.app/"
             target="_blank"
           >
-            Live
+            <button className="project-button">Live</button>
           </a>
         </ul>
       </div>
@@ -97,7 +97,7 @@ function Projects() {
             href="https://github.com/Charlesdigital/Yo-Low-Trips"
             target="_blank"
           >
-            Source Code
+            <button className="project-button">Source Code</button>
           </a>
         </ul>
       </div>
@@ -126,7 +126,7 @@ function Projects() {
         </ul>
         <ul className="links">
           <a href="https://github.com/Charlesdigital/Wiki-Maps">
-            Source Code
+          <button className="project-button">Source Code</button>
           </a>
         </ul>
       </div>
@@ -146,7 +146,7 @@ function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Source Code
+            <button className="project-button">Source Code</button>
           </a>
         </ul>
       </div>
