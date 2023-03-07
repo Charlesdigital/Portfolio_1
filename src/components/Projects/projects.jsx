@@ -23,7 +23,6 @@ function Projects() {
           <li className="tech">CSS</li>
           <li className="tech">Javascript</li>
           <li className="tech">React</li>
-
         </ul>
         <ul className="links">
           <a
@@ -42,10 +41,7 @@ function Projects() {
       </div>
       <div className="projectContainer">
         <h2 className="text">Portfolio</h2>
-        <p className="text-project">
-          {" "}
-          This portfolio built with React
-        </p>
+        <p className="text-project"> This portfolio built with React</p>
         <img className="gif" src={Portfolio} alt="logo" />
 
         <ul className="technologies">
@@ -53,7 +49,6 @@ function Projects() {
           <li className="tech">CSS</li>
           <li className="tech">Javascript</li>
           <li className="tech">React</li>
-
         </ul>
         <ul className="links">
           <a
@@ -119,14 +114,16 @@ function Projects() {
             href="https://mapsplatform.google.com/solutions/display-the-ideal-location/"
             className="tech"
             target="_blank"
-            rel="noopener noreferrer"
           >
             Google Map API
           </a>
         </ul>
         <ul className="links">
-          <a href="https://github.com/Charlesdigital/Wiki-Maps">
-          <button className="project-button">Source Code</button>
+          <a
+          href="https://github.com/Charlesdigital/Wiki-Maps"
+          target="_blank"
+          >
+            <button className="project-button">Source Code</button>
           </a>
         </ul>
       </div>
@@ -144,7 +141,6 @@ function Projects() {
           <a
             href="https://github.com/Charlesdigital/scheduler"
             target="_blank"
-            rel="noopener noreferrer"
           >
             <button className="project-button">Source Code</button>
           </a>
