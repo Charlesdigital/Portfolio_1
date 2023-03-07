@@ -208,3 +208,10 @@ body {
     transform: translate(0);
   }
 }
+
+
+@media only screen and (max-width: 771px) {
+  .homeContainer {
+    padding: 50px;
+  }
+}
