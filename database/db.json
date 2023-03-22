@@ -1,0 +1,14 @@
+{
+    "option": [
+        {
+    "Company": "Magicycle",
+    "Bike": "Ocelot Pro",
+    "Speed": "40 KM",
+    "Range": "100 KM",
+    "Price": "1989",
+    "Battery": "20AH",
+    "Voltage":"52V",
+
+}
+    ]
+}
