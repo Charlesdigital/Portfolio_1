@@ -14,7 +14,7 @@ function About() {
     <div className="text-content">
     <p className="text-me" > I'm a Full-Stack Developer with a business background. My curiosity for continuous learning and tinkering with technology lead me to be a Developer. I have experience working with large ERP solutions such as PeopleSoft and SAP in an accounting function. I enjoy learning the fundamentals of programming
     and breaking down business problems into code. </p>
-    <p className="text-me" >During my spare time I enjoy cycling and exploring the city. <MdOutlineElectricBike /></p>
+    <p className="text-me" >During my spare time I enjoy cycling and exploring Toronto. <MdOutlineElectricBike /></p>
     <p className="text-me" >I enjoy travelling and experiencing new places. <GiWorld /></p>
     <p className="text-me" >Sports I play are: Squash, Volleyball, Badminton, Table Tennis <MdOutlineSportsTennis /></p>
     </div>
