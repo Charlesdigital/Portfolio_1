@@ -51,3 +51,7 @@ font-weight: bold;
 border-radius: 999px;
 
 }
+
+.project-button:hover {
+  transform: scale(1.1);
+}
