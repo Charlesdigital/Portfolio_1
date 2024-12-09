@@ -8,6 +8,9 @@ import notion from "../../assets/icons/notion.svg";
 import rest from "../../assets/icons/rest.svg";
 import figma from "../../assets/icons/figma.svg";
 import express from "../../assets/icons/express.svg";
+import sap from "../../assets/icons/sap.svg";
+import oracle from "../../assets/icons/oracle.svg";
+
 
 function Skills() {
   return (
@@ -57,6 +60,14 @@ function Skills() {
           <li>
             <img className="skill-icons" src={figma} alt="logo" />
             <span>FIGMA</span>
+          </li>
+          <li>
+            <img className="skill-icons" src={sap} alt="logo" />
+            <span>SAP</span>
+          </li>
+          <li>
+            <img className="skill-icons" src={oracle} alt="logo" />
+            <span>ORACLE</span>
           </li>
         </ul>
       </div>
