@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useRef } from "react";
 import "./navbar.css";
 // import { FaBars, FaTimes } from "react-icons/fa";
 
