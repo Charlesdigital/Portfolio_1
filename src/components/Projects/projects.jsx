@@ -54,12 +54,14 @@ function Projects() {
           <a
             href="https://github.com/Charlesdigital/Portfolio_1"
             target="_blank"
+            rel="noreferrer"
           >
             <button className="project-button">Source Code</button>
           </a>
           <a
             href="https://mortgagecalculatorbreakdown.netlify.app/"
             target="_blank"
+            rel="noreferrer"
           >
             <button className="project-button">Live</button>
           </a>
@@ -91,6 +93,7 @@ function Projects() {
           <a
             href="https://github.com/Charlesdigital/Yo-Low-Trips"
             target="_blank"
+            rel="noreferrer"
           >
             <button className="project-button">Source Code</button>
           </a>
