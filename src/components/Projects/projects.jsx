@@ -28,12 +28,14 @@ function Projects() {
           <a
             href="https://github.com/Charlesdigital/Mortgage-Calculator"
             target="_blank"
+            rel="noreferrer"
           >
             <button className="project-button">Source Code</button>
           </a>
           <a
             href="https://mortgagecalculatorbreakdown.netlify.app/"
             target="_blank"
+            rel="noreferrer"
           >
             <button className="project-button">Live</button>
           </a>
@@ -117,6 +119,7 @@ function Projects() {
             href="https://mapsplatform.google.com/solutions/display-the-ideal-location/"
             className="tech"
             target="_blank"
+            rel="noreferrer"
           >
             Google Map API
           </a>
@@ -125,6 +128,7 @@ function Projects() {
           <a
           href="https://github.com/Charlesdigital/Wiki-Maps"
           target="_blank"
+          rel="noreferrer"
           >
             <button className="project-button">Source Code</button>
           </a>
@@ -144,6 +148,7 @@ function Projects() {
           <a
             href="https://github.com/Charlesdigital/scheduler"
             target="_blank"
+            rel="noreferrer"
           >
             <button className="project-button">Source Code</button>
           </a>
