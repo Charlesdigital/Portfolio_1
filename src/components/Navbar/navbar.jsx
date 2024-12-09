@@ -1,13 +1,13 @@
 import { useState, useRef } from "react";
 import "./navbar.css";
-import { FaBars, FaTimes } from "react-icons/fa";
+// import { FaBars, FaTimes } from "react-icons/fa";
 
 import { Link } from "react-scroll";
 function Navbar() {
   const navRef = useRef();
 
   const [nav, setNav] = useState(false);
-  const handleClick = () => setNav(!nav);
+  // const handleClick = () => setNav(!nav);
 
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav");

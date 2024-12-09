@@ -1,6 +1,5 @@
 import React from "react";
 import "./home.css";
-import { SlEmotsmile } from "react-icons/sl";
 import { Link } from "react-scroll";
 
 function home() {
