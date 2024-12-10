@@ -26,7 +26,7 @@ function contactform() {
               id="fname"
               name="fname"
               placeholder="Name"
-              size="35"
+              size="30"
               required
             ></input>
           </div>
@@ -39,7 +39,7 @@ function contactform() {
               id="lname"
               name="lname"
               placeholder="Email"
-              size="35"
+              size="30"
               required
             ></input>
           </div>
