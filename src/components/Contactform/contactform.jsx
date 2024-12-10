@@ -7,7 +7,7 @@ function contactform() {
     <section className="contactContainer">
       <form
         className="box"
-        action="https://formsubmit.co/charles.easton@mail.utoronto.ca"
+        action="https://formsubmit.co/charles.easton@alumni.utoronto.ca"
         method="POST"
       >
         <div className="header-info">
@@ -26,7 +26,7 @@ function contactform() {
               id="fname"
               name="fname"
               placeholder="Name"
-              size="40"
+              size="35"
               required
             ></input>
           </div>
@@ -39,7 +39,7 @@ function contactform() {
               id="lname"
               name="lname"
               placeholder="Email"
-              size="40"
+              size="35"
               required
             ></input>
           </div>
@@ -48,8 +48,8 @@ function contactform() {
             <textarea
               className="messageholder"
               placeholder="Message"
-              cols="42"
-              rows="20"
+              cols="35"
+              rows="15"
             ></textarea>
             <div>
               {/* <img className="mail" src = {contact} alt="mail" /> */}
