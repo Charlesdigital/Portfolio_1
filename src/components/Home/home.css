@@ -112,7 +112,7 @@ body {
 
 .button-1,
 .button-1::after {
-  width: 380px;
+  width: 300px;
   height: 86px;
   font-size: 36px;
   font-family: "Inter", cursive;
@@ -131,7 +131,7 @@ body {
   font-weight: bold;
 }
 
-.button-1::after {
+/* .button-1::after {
   --slice-0: inset(50% 50% 50% 50%);
   --slice-1: inset(80% -6px 0 0);
   --slice-2: inset(50% -6px 30% 0);
@@ -155,9 +155,9 @@ body {
   );
   text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #00e6f6;
   clip-path: var(--slice-0);
-}
+} */
 
-.button-1:hover::after {
+/* .button-1:hover::after {
   animation: 1s glitch;
   animation-timing-function: steps(2, end);
 }
@@ -207,11 +207,11 @@ body {
     clip-path: var(--slice-1);
     transform: translate(0);
   }
-}
+} */
 
 
-@media only screen and (max-width: 771px) {
+/* @media only screen and (max-width: 771px) {
   .homeContainer {
     padding: 50px;
   }
-}
+} */
