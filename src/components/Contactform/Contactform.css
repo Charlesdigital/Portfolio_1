@@ -1,8 +1,8 @@
 .input-info {
   background-color: #f2f2f2;
-  border: 2px solid red;
   display: flex;
-  justify-content: space-between; 
+  justify-content: center;
+  padding: 100px;
 
 
 }
@@ -37,10 +37,10 @@ textarea {
   transform: scale(1.1);
 }
 
-.contactContainer {
+/* .contactContainer {
   justify-content: center;
-  align-items: flex-end;
-}
+  align-items:center
+} */
 
 .bottom {
   font-weight: bold;
@@ -48,7 +48,9 @@ textarea {
 }
 
 .socials {
+  display: flex;
   justify-content: center;
+  gap: 20px;
 }
 
 .note {

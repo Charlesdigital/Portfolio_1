@@ -20,8 +20,8 @@ function contactform() {
         </div>
 
         <div className="input-info">
-              <div>
           <div className="formContainer">
+            <div>
             <label for="fname"></label>
             <input
               className="infield"
@@ -61,16 +61,17 @@ function contactform() {
               <input className="submit" type="submit" value="Submit"></input>
             </div>
             </div>
-                  </div>
-            <div>
-            <img src={envelope} alt="Mail Icon" />
             </div>
-          </div>
+                  </div>
+            {/* <div>
+            <img src={envelope} alt="Mail Icon" />
+            </div> */}
         </div>
       </form>
 
       <div className="bottom">
         <div className="socials">
+          <div>
           <a
             href="https://www.linkedin.com/in/charles-easton1/"
             className="social"
@@ -79,6 +80,9 @@ function contactform() {
           >
             <BsLinkedin size={50} color="#0072b1" />
           </a>
+          </div>
+          <div>
+
           <a
             href="https://github.com/Charlesdigital"
             className="social"
@@ -87,6 +91,8 @@ function contactform() {
           >
             <BsGithub size={50} color="white" />
           </a>
+          </div>
+
         </div>
         Built with React <FaReact size={20} color="#61DBFB" />
       </div>
