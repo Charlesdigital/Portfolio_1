@@ -1,7 +1,7 @@
 import "./Contactform.css";
 import { FaReact } from "react-icons/fa";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
-import envelope from "../../assets/envelope.svg";
+// import envelope from "../../assets/envelope.svg";
 
 function contactform() {
   return (
