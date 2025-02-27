@@ -1,47 +1,49 @@
-import { useRef } from "react";
+import { useState } from "react";
 import "./navbar.css";
-// import { FaBars, FaTimes } from "react-icons/fa";
-
+import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+
 function Navbar() {
-  const navRef = useRef();
+  const [isOpen, setIsOpen] = useState(false);
 
-  // const [nav, setNav] = useState(false);
-  // // const handleClick = () => setNav(!nav);
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
-  // const showNavbar = () => {
-  //   navRef.current.classList.toggle("responsive_nav");
-  // };
   return (
     <div className="container">
-      <nav className="nav" ref={navRef}>
-        <ul className="list">
+      <nav className="nav">
+        <button className="hamburger" onClick={toggleMenu}>
+          {isOpen ? <FaTimes /> : <FaBars />}
+        </button>
+
+        <ul className={`list ${isOpen ? 'show-menu' : ''}`}>
           <li className="menu">
-            <Link to="homeHeader" smooth={true} duration={500}>
+            <Link to="homeHeader" smooth={true} duration={500} onClick={toggleMenu}>
               Home
             </Link>
           </li>
 
           <li className="menu">
-            <Link to="about-info" smooth={true} duration={500}>
+            <Link to="about-info" smooth={true} duration={500} onClick={toggleMenu}>
               About
             </Link>
           </li>
 
           <li className="menu">
-            <Link to="projects" smooth={true} duration={500}>
+            <Link to="projects" smooth={true} duration={500} onClick={toggleMenu}>
               Projects
             </Link>
           </li>
 
           <li className="menu">
-            <Link to="Skills" smooth={true} duration={500}>
+            <Link to="Skills" smooth={true} duration={500} onClick={toggleMenu}>
               Skills
             </Link>
           </li>
 
           <li className="menu">
-            <Link className="contact" to="box" smooth={true} duration={500}>
+            <Link className="contact" to="box" smooth={true} duration={500} onClick={toggleMenu}>
               Contact
             </Link>
           </li>
