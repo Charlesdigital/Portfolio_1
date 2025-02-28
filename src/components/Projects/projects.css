@@ -40,9 +40,9 @@ ul {
   border-radius: 999px;
 }
 
-.text-project {
-  padding: 1rem;
-}
+/* .text-project {
+  margin-top: 5rem;
+} */
 
 .project-button {
 background-color: palegreen;
@@ -54,4 +54,10 @@ border-radius: 999px;
 
 .project-button:hover {
   transform: scale(1.1);
+}
+
+.projects {
+  padding-top: 100px;
+  margin-top: -70px;
+  min-height: 100vh;
 }

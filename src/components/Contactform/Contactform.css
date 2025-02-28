@@ -60,3 +60,10 @@ textarea {
 .messageholder {
   padding: 0.7rem;
 }
+
+.box {
+  padding-top: 100px;
+  margin-top: -70px;
+  min-height: 100vh;
+}
+

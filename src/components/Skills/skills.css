@@ -37,3 +37,9 @@ ul {
     /* flex-direction: column; */
   }
 }
+
+.Skills {
+  padding-top: 100px;
+  margin-top: -70px;
+  min-height: 100vh;
+}
