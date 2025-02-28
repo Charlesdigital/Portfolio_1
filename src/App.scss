@@ -1,6 +1,10 @@
 
 * {
   font-size: large;
+  ::selection {
+    background-color: palegreen;
+    color: white;
+  }
 }
 
 input,
