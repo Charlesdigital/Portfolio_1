@@ -19,31 +19,67 @@ function Navbar() {
 
         <ul className={`list ${isOpen ? 'show-menu' : ''}`}>
           <li className="menu">
-            <Link to="homeHeader" smooth={true} duration={500} onClick={toggleMenu}>
+            <Link 
+              to="homeHeader" 
+              spy={true}
+              smooth={true} 
+              offset={-70}
+              duration={100}
+              onClick={toggleMenu}
+            >
               Home
             </Link>
           </li>
 
           <li className="menu">
-            <Link to="about-info" smooth={true} duration={500} onClick={toggleMenu}>
+            <Link 
+              to="about-info" 
+              spy={true}
+              smooth={true} 
+              offset={-70}
+              duration={100}
+              onClick={toggleMenu}
+            >
               About
             </Link>
           </li>
 
           <li className="menu">
-            <Link to="projects" smooth={true} duration={500} onClick={toggleMenu}>
+            <Link 
+              to="projects" 
+              spy={true}
+              smooth={true} 
+              offset={-70}
+              duration={100}
+              onClick={toggleMenu}
+            >
               Projects
             </Link>
           </li>
 
           <li className="menu">
-            <Link to="Skills" smooth={true} duration={500} onClick={toggleMenu}>
+            <Link 
+              to="Skills" 
+              spy={true}
+              smooth={true} 
+              offset={-70}
+              duration={100}
+              onClick={toggleMenu}
+            >
               Skills
             </Link>
           </li>
 
           <li className="menu">
-            <Link className="contact" to="box" smooth={true} duration={500} onClick={toggleMenu}>
+            <Link 
+              className="contact" 
+              to="box" 
+              spy={true}
+              smooth={true} 
+              offset={-70}
+              duration={300}
+              onClick={toggleMenu}
+            >
               Contact
             </Link>
           </li>
