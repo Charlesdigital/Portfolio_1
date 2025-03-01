@@ -20,7 +20,7 @@
 }
 
 .about-info {
-  padding-top: 100px;
+  padding-top: 40px;
   margin-top: -70px;
   min-height: 100vh; /* This ensures the section takes up full viewport height */
 }
