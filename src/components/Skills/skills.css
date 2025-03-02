@@ -38,6 +38,19 @@ ul {
   }
 }
 
+/* Add media query for narrow screens */
+@media only screen and (max-width: 360px) {
+  .skill-icons {
+    margin: 25px; /* Reduce margin */
+    width: 80px; /* Smaller icons */
+    height: 80px;
+  }
+
+  .skillContainer {
+    margin: 10px 5px; /* Reduce margins */
+  }
+}
+
 .Skills {
   padding-top: 40px;
   margin-top: -70px;

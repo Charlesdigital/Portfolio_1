@@ -61,3 +61,22 @@ border-radius: 999px;
   margin-top: -70px;
   min-height: 100vh;
 }
+
+/* Add media query for narrow screens */
+@media only screen and (max-width: 360px) {
+  .projectContainer {
+    margin: 15px 5px; /* Reduce margins */
+    border-radius: 20px; /* Reduce border radius */
+  }
+
+  .gif {
+    width: 100%; /* Make images responsive */
+    max-width: 300px; /* Maximum width for narrow screens */
+  }
+
+  .tech {
+    padding: 5px 10px; /* Reduce padding */
+    margin: 2px; /* Add small margin */
+    font-size: 0.9rem; /* Slightly smaller font */
+  }
+}
