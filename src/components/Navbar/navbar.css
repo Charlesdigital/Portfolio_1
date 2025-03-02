@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -12,6 +18,8 @@ html {
   z-index: 1000;
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
+  min-width: 320px;
 }
 
 .burger {
@@ -123,10 +131,11 @@ html {
     display: none;
     justify-content: none;
   }
-  /* .container {
-      flex-direction: column;
-      align-items: flex-start;
-    } */
+  .container {
+    width: 100%;
+    padding: 0 1rem;
+    overflow-x: hidden;
+  }
   .burger {
     visibility: visible;
     text-align: end;
@@ -137,15 +146,16 @@ html {
   }
 
   .list {
+    width: 100vw;
+    left: 0;
+    right: auto;
+    box-sizing: border-box;
     display: none;
     flex-direction: column;
     position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
     background-color: #384460;
     padding: 4rem 2rem 2rem 2rem;
-    width: 100%;
   }
 
   .list.show-menu {
