@@ -2,7 +2,7 @@
   background-color: #f2f2f2;
   display: flex;
   justify-content: center;
-  padding: 100px;
+  padding: 20px;
 
 
 }
@@ -62,8 +62,11 @@ textarea {
 }
 
 .box {
-  padding-top: 100px;
+  padding-top: 40px;
   margin-top: -70px;
   min-height: 100vh;
 }
-
+/* 
+.skill-title {
+  margin-top: 20px;
+} */
