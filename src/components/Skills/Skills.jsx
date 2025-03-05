@@ -10,6 +10,8 @@ import figma from "../../assets/icons/figma.svg";
 import express from "../../assets/icons/express.svg";
 import sap from "../../assets/icons/sap.svg";
 import oracle from "../../assets/icons/oracle.svg";
+import shopify from "../../assets/icons/shopify.svg";
+
 
 
 function Skills() {
@@ -68,6 +70,10 @@ function Skills() {
           <li>
             <img className="skill-icons" src={oracle} alt="logo" />
             <span>ORACLE</span>
+          </li>
+          <li>
+            <img className="skill-icons" src={shopify} alt="logo" />
+            <span>SHOPIFY LIQUID</span>
           </li>
         </ul>
       </div>
