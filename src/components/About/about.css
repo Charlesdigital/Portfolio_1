@@ -1,27 +1,94 @@
-/* .about-info {
-    border: 2px solid #F14E32;
 
-} */
 .charles {
   border: 5px solid #4b4646;
   border-radius: 10%;
   height: 18em;
+  margin: 2rem 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .summary {
-  padding: 1rem;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-@media only screen and (max-width: 880px) {
+.text-content {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.text-me {
+  margin-bottom: 1.5rem;  /* Space between paragraphs */
+  padding: 0 1rem;
+}
+
+.text-me svg {
+  vertical-align: middle;
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .about-info {
+    padding-top: 60px;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .text-me {
+    margin-bottom: 1rem;
+    display: block;  /* Ensures each paragraph is on new line */
+    text-align: center;  /* Left align text on mobile */
+    padding: 0.8rem;
+  }
+
   .text-content {
-    font-size: large;
-    padding: 40px;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 0.8rem;
+  }
+
+  .summary {
+    padding: 1rem;
+  }
+
+  .charles {
+    height: 12em;
+    margin: 1.5rem 0;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .text-content {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+
+  .charles {
+    height: 10em;
+    margin: 1rem 0;
+  }
+
+  .summary {
+    padding: 0.8rem;
   }
 }
 
 .about-info {
-  padding-top: 40px;
+  padding-top: 70px;
   margin-top: -70px;
-  min-height: 100vh; /* This ensures the section takes up full viewport height */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
