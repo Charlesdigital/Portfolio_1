@@ -7,7 +7,7 @@ function home() {
     <header className="homeHeader">
       <div className="homeContainer">
         <h1 classname="header">
-          Hello, my name is Charles Easton, A Full Stack Developer.
+          Hello, I'm Charles Easton, A Full Stack Developer.
         </h1>
         <p class="subtitle">
           Welcome to my website!
