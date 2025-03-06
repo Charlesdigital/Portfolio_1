@@ -43,7 +43,6 @@ ul {
   .skill-icons {
     margin: 25px; /* Reduce margin */
     width: 80px; /* Smaller icons */
-    height: 80px;
   }
 
   .skillContainer {
@@ -67,13 +66,6 @@ ul {
   padding-top: 70px;
   margin-top: 0;
   min-height: 100vh;
-  height: 100vh;
-  overflow-y: auto;
 }
 
-@media only screen and (max-width: 360px) {
-  .Skills {
-    padding-top: 60px;
-  }
-}
 }
