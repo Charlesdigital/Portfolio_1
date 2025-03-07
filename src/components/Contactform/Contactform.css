@@ -3,14 +3,14 @@
   display: flex;
   justify-content: center;
   padding: 20px;
-
-
 }
 
 .header-info {
   text-align: center;
 }
-
+.contactContainer {
+margin-top: 25px;
+}
 
 .infield {
   border: 2px solid #4b4646;
@@ -65,7 +65,6 @@ textarea {
 
 .box {
   padding-top: 40px;
-  margin-top: -70px;
   min-height: 100vh;
 }
 /* 
