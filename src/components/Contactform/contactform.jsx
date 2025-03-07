@@ -1,7 +1,6 @@
 import "./Contactform.css";
 import { FaReact } from "react-icons/fa";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
-// import envelope from "../../assets/envelope.svg";
 
 function contactform() {
   return (
@@ -40,7 +39,7 @@ function contactform() {
               className="infield"
               type="text"
               id="lname"
-              name="lname"
+              name="email"
               placeholder="Email"
               size="32"
               required
@@ -50,22 +49,21 @@ function contactform() {
           <div className="messageContainer">
             <textarea
               className="messageholder"
-              placeholder="Message"
+              name="message"
+              placeholder="Your Message"
               cols="35"
               rows="15"
+              required
             ></textarea>
             <div>
               {/* <img className="mail" src = {contact} alt="mail" /> */}
             
             <div>
-              <input className="submit" type="submit" value="Submit"></input>
+              <button className="submit" type="submit">Submit</button>
             </div>
             </div>
             </div>
-                  </div>
-            {/* <div>
-            <img src={envelope} alt="Mail Icon" />
-            </div> */}
+                  </div> 
         </div>
       </form>
 
