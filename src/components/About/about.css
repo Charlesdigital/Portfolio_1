@@ -21,6 +21,7 @@
 .text-me {
   margin-bottom: 1.5rem;  /* Space between paragraphs */
   padding: 0 1rem;
+  font-weight: 500;
 }
 
 .text-me svg {
