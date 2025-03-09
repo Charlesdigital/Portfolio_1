@@ -146,32 +146,43 @@ html {
   }
 
   .list {
-    width: 100vw;
-    left: 0;
-    right: auto;
-    box-sizing: border-box;
-    display: none;
-    flex-direction: column;
     position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
     background-color: #384460;
     padding: 4rem 2rem 2rem 2rem;
+    flex-direction: column;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
   }
 
   .list.show-menu {
     display: flex;
+    opacity: 1;
+    visibility: visible;
   }
 
   .menu {
     margin: 1rem 0;
-    width: 100%;
-    text-align: center;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
   }
 
-  .menu a {
-    display: block;
-    padding: 0.5rem;
+  .show-menu .menu {
+    opacity: 1;
+    transform: translateY(0);
   }
+
+  /* Add transition delays for each menu item */
+  .show-menu .menu:nth-child(1) { transition-delay: 0.1s; }
+  .show-menu .menu:nth-child(2) { transition-delay: 0.2s; }
+  .show-menu .menu:nth-child(3) { transition-delay: 0.3s; }
+  .show-menu .menu:nth-child(4) { transition-delay: 0.4s; }
+  .show-menu .menu:nth-child(5) { transition-delay: 0.5s; }
 
   .hamburger {
     display: block;
@@ -204,15 +215,6 @@ html {
     justify-content: center;
   }
 
-  .responsive_nav {
-    height: 25vh;
-  }
-  /*
-    nav .nav-close-btn {
-      position: absolute;
-      top: 2rem;
-      right: 2rem;
-    } */
 }
 
 /* Add these to handle very narrow screens */
