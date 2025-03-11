@@ -9,9 +9,6 @@ function home() {
         <h1 classname="header">
           Hello, I'm Charles Easton, A Full Stack Developer.
         </h1>
-        <p class="subtitle">
-          Welcome to my website!
-        </p>
 
         <div className="button-1">
           <button className="button-1">
