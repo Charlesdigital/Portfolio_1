@@ -12,7 +12,7 @@ function home() {
 
         <div className="button-1">
           <button className="button-1">
-            <Link to="projects" smooth={true} duration={500}>
+            <Link to="projects" smooth={true} duration={300}>
               View My Projects
             </Link>
           </button>

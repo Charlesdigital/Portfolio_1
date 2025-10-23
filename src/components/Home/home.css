@@ -60,7 +60,7 @@ h1::after {
   background: #5c5c5c;
   animation: typewriter var(--typewriterSpeed)
       steps(var(--typewriterCharacters)) 1s forwards,
-    blink 500ms steps(var(--typewriterCharacters)) infinite;
+    blink 200ms steps(var(--typewriterCharacters)) infinite;
 }
 
 .subtitle {
@@ -129,6 +129,38 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-1:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 8px 8px 0px #00e6f6, 0 10px 20px rgba(0, 230, 246, 0.3);
+  background: linear-gradient(45deg, transparent 5%, #ff5c42 5%);
+}
+
+.button-1:active {
+  transform: translateY(0px) scale(0.98);
+  box-shadow: 3px 3px 0px #00e6f6;
+  animation: pulse 0.3s ease;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: translateY(0px) scale(0.98);
+  }
+  50% {
+    transform: translateY(0px) scale(1.01);
+  }
+}
+
+.button-1 a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
 }
 
 /* .button-1::after {
