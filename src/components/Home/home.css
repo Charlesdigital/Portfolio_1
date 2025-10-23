@@ -1,6 +1,6 @@
 :root {
   --bg-color: hsl(49 37% 94%);
-  --typewriterSpeed: 3s;
+  --typewriterSpeed: 1.5s;
   --typewriterCharacters: 24;
 }
 
@@ -60,7 +60,7 @@ h1::after {
   background: #5c5c5c;
   animation: typewriter var(--typewriterSpeed)
       steps(var(--typewriterCharacters)) 1s forwards,
-    blink 750ms steps(var(--typewriterCharacters)) infinite;
+    blink 500ms steps(var(--typewriterCharacters)) infinite;
 }
 
 .subtitle {
